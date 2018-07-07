@@ -1,0 +1,32 @@
+# main links links
+main:
+
+  - title: "Home"
+    url: /about/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Data Science"
+    url: /datascience/
+
+  - title: "Experience"
+    url: /experience/
+
+#  - title: "Skills"
+#    url: /year-archive/
+
+  - title: "Awards & Activities"
+    url: /activities/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Courses"
+    url: /courses/
+
+  - title: "Trips"
+    url: /trip/
