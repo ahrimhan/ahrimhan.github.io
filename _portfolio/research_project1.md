@@ -36,10 +36,11 @@ Previous work efforts of change-proneness prediction have been made on source co
 ## Method <a name="method"></a>
 
 
-<details><summary> **Overview of the change-proneness prediction**
-</summary>
+<!--<details><summary> -->
+**Overview of the change-proneness prediction**
+<!-- </summary> -->
 ![researchBDMProcedure](/images/researchBDMProcedure.jpeg)
-</details>
+<!-- </details> -->
 
 
 <details><summary> **Illustrative example for calculating all reachable paths for all pairs of objects in the system**
