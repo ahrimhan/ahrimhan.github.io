@@ -61,6 +61,7 @@ To show that the behavioral dependency metric is the useful and additional expla
 [JFreeChart ver 1.0.0](https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.0/): Open-source Java class library for generating various types of charts  
 
 * Measured metrics: six [C&K metrics](https://ieeexplore.ieee.org/document/295895/) (``Independent variables``)
+
 ```
  - NOC (number of children)
  - DIT (depth of inheritance tree)
@@ -69,6 +70,7 @@ To show that the behavioral dependency metric is the useful and additional expla
  - CBO (coupling between objects)
  - LCOM (lack of cohesion in methods)
 ```
+
 * Metric of change-proneness (``Dependent variable``)
 ```
 Total amount of changes (source lines of coded added and deleted) across the six releases (ver 1.0.1 ~ ver 1.0.6)
