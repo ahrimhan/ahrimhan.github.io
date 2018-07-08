@@ -35,22 +35,22 @@ In this project, I propose a fast refactoring candidate assessment metric, `Delt
 
 ## Method <a name="method"></a>
 
-### Assessment in the refactoring identification process <a name="overview"></a>
-![researchDeltaOverview](/images/researchDeltaOverview2.png)
+### Assessment in the refactoring identification process <a name="overview"></a>  
+![researchDeltaOverview](/images/researchDeltaOverview2.png)  
 To identify refactoring sequence automatically, the possible moves of methods to classes in the system (i.e., refactoring candidates of ``Move Method``) are assessed the using the `Delta Table` and the most improving refactoring is selected and applied. This process is iterated until there are no more improvements.
 
 
-### Software design is captured into a graph <a name="step1"></a>
-![researchDeltadesign](/images/researchDeltadesign.png)
+### Software design is captured into a graph <a name="step1"></a>  
+![researchDeltadesign](/images/researchDeltadesign.png)  
 From the object-oriented source codes, the software design is captured into a graph. The entities of ``methods`` and ``attributes`` are mapped into ``vertices (V)`` and their relations such as ``method calls`` and ``attribute accesses`` are mapped into ``edges (E)``.
 
 
-### Delta Table calculation <a name="step2"></a>
+### Delta Table calculation <a name="step2"></a>  
 
 The ``Delta Table (D)`` is the ``matrix (rows: entities, columns: classes)``. Each element in the ``Delta Table (D_{ij})`` represents ``the variance of the number of external relations`` (i.e., relations across the classes) when moving ``entity i`` to ``class j``.
 
 **Illustrative calculation of ``Delta Table``**  
-![researchDeltaCalculation](/images/researchDeltaCalculation.png)
+![researchDeltaCalculation](/images/researchDeltaCalculation.png)  
 
 
 **Step of the ``Delta Table`` calculation**  

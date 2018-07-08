@@ -31,24 +31,24 @@ Recent research was focused on defining the cost-effective software refactoring 
 In this project, I propose the several new methods to improve the efficiency of the refactoring identification process.
 
 
-### Overview of the refactoring identification process <a name="framework"></a>
-![researchRefactoringOverview](/images/researchRefactoringOverview.png)
+### Overview of the refactoring identification process <a name="framework"></a>  
+![researchRefactoringOverview](/images/researchRefactoringOverview.png)  
 To identify refactoring sequence automatically, refactoring candidates are extracted and assessed using a ``fitness function`` measuring maintainability. Then, the refactoring that most improves the maintainability in terms of the ``fitness function`` is selected and applied. We use the ``stepwise approach`` which selects the most beneficial refactoring for each iteration of the refactoring process. This process is iterated until there are no more improvements. In this study, the refactoring candidates indicate the possible moves of methods to classes in the system (i.e., ``Move Method``).
 
 ## Method
 
-### Dynamic profiling-based refactoring identification [[IST'2013]](http://dx.doi.org/10.1016/j.infsof.2012.12.002) <a name="dynamic"></a>
+### Dynamic profiling-based refactoring identification [[IST'2013]](http://dx.doi.org/10.1016/j.infsof.2012.12.002) <a name="dynamic"></a>  
 ![researchRefactoringDynamic](/images/researchRefactoringDynamic.png)
 To identify the candidates in classes where real changes have occurred, I provided the method to use the ``dynamic profiling technique`` for finding the ``most frequently used functions`` based on the several scenarios of user behavior. Then, refactoring candidates are extracted to ``reduce the dependencies among the entities used in the most frequently used functions``.
 
 
-### Multiple and independent refactoring identification [[IST'2015]](http://dx.doi.org/10.1016/j.infsof.2014.10.007) <a name="multiple"></a>
+### Multiple and independent refactoring identification [[IST'2015]](http://dx.doi.org/10.1016/j.infsof.2014.10.007) <a name="multiple"></a>  
 ![researchRefactoringMultiple](/images/researchRefactoringMultiple.png)
 To find a sequence of cost-effective refactorings, I proposed the method for selecting ``multiple refactorings that have no dependencies each other and can be applied simultaneously`` based on the concept of ``maximal independent set (MIS)``.
 
 
 ### Two-phased search-based refactoring identification [[TSE'2017]](https://dx.doi.org/10.1109/TSE.2017.2731853) <a name="twophase"></a>
-![researchRefactoringTwophase](/images/researchRefactoringTwophase2.png)
+![researchRefactoringTwophase](/images/researchRefactoringTwophase2.png)  
 ``To reduce the search space of candidates to be examined``, I suggested using the ``two-phase approach``. In the first phase, the refactoring candidates that are more likely to improve maintainability are chosen using the [``Delta Table``](/portfolio/research_project3/), lightweight and fast candidate assessment. In the second phase, only the chosen refactoring candidates are evaluated using a more complex and precise fitness function.
 
 
@@ -152,12 +152,12 @@ In our [paper](http://dx.doi.org/10.1016/j.infsof.2012.12.002), we defined the `
 ### Results
 > Compared to the selection method involving single refactoring, our approach of ``multiple refactorings`` selects refactorings that improve the maintainability of the software design at ``lower computation costs`` with respect to ``smaller number of iterations`` or ``shorter elapsed time``.
 
-* **``Number of iterations`` to reach the final solution**
-![researchRefactoringMultipleResult](/images/researchRefactoringMultipleResult.png)
+* **``Number of iterations`` to reach the final solution**  
+![researchRefactoringMultipleResult](/images/researchRefactoringMultipleResult.png)  
 The table summarizes the results of the required costs in terms of the ``number of iterations`` to reach the final solution and the ``number of applied refactorings per iteration`` for ``jEdit``, ``Columba``, and ``JGit``, respectively. The total number of iterations required to reach to the final solution using our approach is much smaller than that required by the method of selecting a single refactoring: ``jEdit (26 < 1586)``, ``Columba (39 < 2290)``, and ``JGit (74 < 620)``.
 
-* **``Time`` to reach the final solution**
-![researchRefactoringMultipleResult2](/images/researchRefactoringMultipleResult2.png)
+* **``Time`` to reach the final solution**  
+![researchRefactoringMultipleResult2](/images/researchRefactoringMultipleResult2.png)  
 The graphs of required costs in terms of elapsed ``time`` to reach the final solution for ``jEdit``, ``Columba``, and ``JGit``, respectively. The ``x-axis`` shows the elapsed ``time``, and the ``y-axis`` shows the ``maintainability metric``.
 For all projects, ``maintainability metric`` of our approach increases rapidly, while that of the single refactoring approach increases comparatively slowly.
 Even though there is an overhead to compute ``maximal independent set (MIS)`` in the first step for the selection of multiple refactorings (denoted as ``Preprocessing Time`` in the graphs), ``our approach can attain the same degree of maintainability improvement at a much lower cost`` (i.e., ``time`` or the ``number of iterations``). Thus, the benefit outweighs this necessary overhead.
