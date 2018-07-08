@@ -4,32 +4,31 @@ title: "Efficient refactoring candidate identification"
 collection: portfolio
 ---
 
-# Efficient refactoring candidate identification
-
 Period: March 2008 - December 2017
 
 ## Table of Contents
-1. [Motivation and Goal](#mg)
-  1.1 [Overview of the refactoring identification process](#framework)
+1. [Motivation and Goal](#mg)  
+  1.1 [Overview of the refactoring identification process](#framework)  
 2. [Method](#method)  
-  2.1. [Dynamic profiling-based refactoring identification](#dynamic)
-  2.2. [Multiple and independent refactoring identification](#multiple)  
-  2.3. [Two-phased search-based refactoring identification](#twophase)  
+  2.1. [Dynamic profiling-based refactoring identification](#dynamic)  
+  2.2. [Multiple and independent refactoring identification](#multiple)    
+  2.3. [Two-phased search-based refactoring identification](#twophase)    
 3. [Evaluation](#evaluation)  
-  3.1 [Research questions](#RQ)
-  3.2 [Data sets](#datasets)
-  3.3 [RQ1. Effectiveness of the dynamic information](#RQ1)  
-  3.4 [RQ2. Efficiency of multiple refactorings](#RQ2)
-  3.5 [RQ3. Efficiency of the two-phased approach](#RQ3)
-4. [Conclusion](#conclusion)  
-5. [Papers](#papers)  
-6. [Tools](#tools)  
-7. [Awards](#awards)  
+  3.1 [Research questions](#RQ)  
+  3.2 [Data sets](#datasets)  
+4. [RQ1. Effectiveness of the dynamic information](#RQ1)  
+5. [RQ2. Efficiency of multiple refactorings](#RQ2)  
+6. [RQ3. Efficiency of the two-phased approach](#RQ3)  
+7. [Conclusion](#conclusion)  
+8. [Papers](#papers)  
+9. [Tools](#tools)  
+10. [Awards](#awards)  
 
 ## Motivation and Goal
 
 Recent research was focused on defining the cost-effective software refactoring process by suggesting the refactoring candidates that can maximize improvement in software design quality (e.g., maintainability). As the software is getting larger and more complex, it is harder to find the refactoring candidates because of the lack of resources in computing power and time. Therefore, we need a method to efficiently identify refactoring candidates for the large-scale software.
-In this study, I proposed the several new methods to improve the efficiency of the refactoring identification process.
+
+In this project, I propose the several new methods to improve the efficiency of the refactoring identification process.
 
 
 ### Overview of the refactoring identification process <a name="framework"></a>
@@ -48,10 +47,9 @@ To identify the candidates in classes where real changes have occurred, I provid
 To find a sequence of cost-effective refactorings, I proposed the method for selecting ``multiple refactorings that have no dependencies each other and can be applied simultaneously`` based on the concept of ``maximal independent set (MIS)``.
 
 
-
 ### Two-phased search-based refactoring identification [[TSE'2017]](https://dx.doi.org/10.1109/TSE.2017.2731853) <a name="twophase"></a>
 ![researchRefactoringTwophase](/images/researchRefactoringTwophase2.png)
-``To reduce the search space of candidates to be examined``, I suggested using the ``two-phase approach``. In the first phase, the refactoring candidates that are more likely to improve maintainability are chosen using the [``Delta Table``](https://ahrimhan.github.io/portfolio/research_project3/), lightweight and fast candidate assessment. In the second phase, only the chosen refactoring candidates are evaluated using a more complex and precise fitness function.
+``To reduce the search space of candidates to be examined``, I suggested using the ``two-phase approach``. In the first phase, the refactoring candidates that are more likely to improve maintainability are chosen using the [``Delta Table``](/portfolio/research_project3/), lightweight and fast candidate assessment. In the second phase, only the chosen refactoring candidates are evaluated using a more complex and precise fitness function.
 
 
 ## Evaluation
@@ -94,9 +92,9 @@ Open source projects written in Java
 | Method #|  10,546 | 7,543 | 7,314|
 | Field # | 5,722 | 4,143 | 2,999 |
 
-### RQ1. Effectiveness of the dynamic information <a name="RQ1"></a>
+## RQ1. Effectiveness of the dynamic information <a name="RQ1"></a>
 
-#### Experimental design
+### Experimental design
 To assess the capability of refactorings for maintainability improvement, we use the ``change simulation`` method.
 ``We assume that as the software becomes more maintainable, the less propagated changes would be occurred.``
 Therefore, we inject changes and count the propagated changes on the three different approaches, and ``compare the reduced number of propagated changes``.
@@ -108,14 +106,15 @@ Comparators:
 - Combination of the two approaches (``Dynamic + Static``)
 ```
 
-#### Evaluation measure
+### Evaluation measure
+
 ```
 Rate of reduction for propagated changes (%):
 Percentage of reduction for propagated changes(final) - Percentage of reduction for propagated changes(initial) / # applied refactorings
 ```
 The efficiency of the identified refactorings can be evaluated by observing how fast the number of the propagated changes is reduced.
 
-#### Results
+### Results
 > The ``average rate of reduction for propagated changes`` of the ``approaches using dynamic information are higher`` than that of the approach using only static information.
 
 * **Number of impacted methods and classes for accommodating changes in ``Columba``**
@@ -126,28 +125,31 @@ For example in ``Columba``, the approaches using dynamic information reduce the 
 ![researchRefactoringDynamicResult](/images/researchRefactoringDynamicResult.png)
 In ``Columba``, the average rate of reduction for propagated changes are ``9.09% (Dynamic + Static)``, ``7.67% (Dynamic)``, and ``7.10% (Static)``. From the results in the table, we can observe that the ``average rate of reduction for propagated changes`` of the ``approaches using dynamic information are higher`` than that of the approach using only static information.
 
-### RQ2. Efficiency of multiple refactorings <a name="RQ2"></a>
+## RQ2. Efficiency of multiple refactorings <a name="RQ2"></a>
 
-#### Experimental design
+### Experimental design
 We compare the approach of identifying ``multiple refactorings (our approach)`` with that of identifying a ``single refactoring`` at each iteration of the refactoring identification process.
+
 ```
 Comparators:
 - Multiple refactorings (our approach)
 - Single refactoring
 ```
 
-#### Evaluation measure
+### Evaluation measures
+
 ```
 Required cost to reach the final solution of maintainability metric:
 - Number of iterations
 - Time
 ```
+
 In our [paper](http://dx.doi.org/10.1016/j.infsof.2012.12.002), we defined the ``maintainability metric`` as  <sup>cohesion</sup>&frasl;<sub>coupling</sub> because ``this metric produces larger fitness values`` as the software gets more maintainable with ``higher cohesion`` and ``lower coupling``. In object-oriented software, high cohesion and low coupling have been accepted as important factors for good software design quality in terms of maintenance, because less propagation of changes to other parts of the system or side effects would occur. Cohesion corresponds to the degree to which elements of a class belong together, and coupling refers to the strength of association established by a connection from one class to another.
 * ``Cohesion metric``: [``MSC (Message Similarity Cohesion)``](https://dl.acm.org/citation.cfm?id=1185469)
 * ``Coupling metric``: [``MPC (Message Passing Coupling)``](https://dl.acm.org/citation.cfm?id=170622)
 
 
-#### Results
+### Results
 > Compared to the selection method involving single refactoring, our approach of ``multiple refactorings`` selects refactorings that improve the maintainability of the software design at ``lower computation costs`` with respect to ``smaller number of iterations`` or ``shorter elapsed time``.
 
 * **``Number of iterations`` to reach the final solution**
@@ -161,9 +163,9 @@ For all projects, ``maintainability metric`` of our approach increases rapidly, 
 Even though there is an overhead to compute ``maximal independent set (MIS)`` in the first step for the selection of multiple refactorings (denoted as ``Preprocessing Time`` in the graphs), ``our approach can attain the same degree of maintainability improvement at a much lower cost`` (i.e., ``time`` or the ``number of iterations``). Thus, the benefit outweighs this necessary overhead.
 
 
-### RQ3. Efficiency of the two-phased approach <a name="RQ3"></a>
+## RQ3. Efficiency of the two-phased approach <a name="RQ3"></a>
 
-#### Experimental design
+### Experimental design
 
 ```
 Comparators:
@@ -171,10 +173,11 @@ Comparators:
   : Two-phase approach (top 20% ranked using the Delta Table are evaluated using a fitness function)  
 - No-reduction approach
 ```
+
 The used ``fitness functions`` are ``MPC (Message Passing Coupling)``, ``Connectivity``, and ``EPM (Entity Placement metric)``.
 For improving maintainability, fitness functions should be increased or decreased: ``MPC (-)``, ``Connectivity (+)``, and ``EPM (-)``.
 
-#### Evaluation measures
+### Evaluation measures
 
 * **Efficiency of the two-phased approach**  
 
@@ -193,7 +196,7 @@ E: set of refactoring candidates with positive effects on each fitness function
 - Recall = |D ∩ E|/|E|
 ```
 
-#### Results
+### Results
 > - Our approach is efficient in that it saves a considerable amount of time while still achieving the same amount of fitness improvement as the no-reduction approach. Our approach is 2.6 (min) to 13.5 (max) times faster than the no-reduction approach.
 - The Delta Table perfectly identified all refactoring candidates that improved MPC. For Connectivity and EPM, more than 74% of candidates that have positive effects on each fitness function can be identified by the Delta Table.
 
@@ -213,25 +216,40 @@ To improve the efficiency of the refactoring identification process, I proposed 
 * [**Two-phase Assessment Approach to Improve the Efficiency of Refactoring Identification**](https://dx.doi.org/10.1109/TSE.2017.2731853)  
    **Ah-Rim Han**, Sungdeok Cha    
    IEEE Transactions on Software Engineering (TSE), Online Published at July 25, 2017        
-   [[PDF]](https://ahrimhan.github.io/files/TSE2017proof.pdf) [[DOI]](https://dx.doi.org/10.1109/TSE.2017.2731853)
+   [[PDF]](/files/TSE2017proof.pdf) [[DOI]](https://dx.doi.org/10.1109/TSE.2017.2731853)
 
 * [**An efficient approach to identify multiple and independent Move Method refactoring candidates**](http://dx.doi.org/10.1016/j.infsof.2014.10.007)  
   **Ah-Rim Han**, Doo-Hwan Bae, Sungdeok Cha  
   Information and Software Technology (IST), Vol. 59, pp. 53–66, Mar. 2015  
-  [[PDF]](https://ahrimhan.github.io/files/ist2015MultipleRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2014.10.007)  
+  [[PDF]](/files/ist2015MultipleRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2014.10.007)  
 
 
 * [**Dynamic profiling-based approach to identifying cost-effective refactorings**](http://dx.doi.org/10.1016/j.infsof.2012.12.002)  
   **Ah-Rim Han**, Doo-Hwan Bae  
   Information and Software Technology (IST), Vol. 55, No. 6, pp. 966-985, Jun. 2013  
-  [[PDF]](https://ahrimhan.github.io/files/ist2013DynamicProfilingRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2012.12.002)
+  [[PDF]](/files/ist2013DynamicProfilingRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2012.12.002)
 
 
 ## Tools
 
+* [Delta search](https://github.com/ahrimhan/delta-search) (written in ``Python``)
+Prototype of the two-phased refactoring identification approach: search space reduction based on the ``Delta Table``
 
-## Awards
+* [Mass refactoring](https://github.com/ahrimhan/mass-refactoring) (written in ``Python``)
+Implementation for choosing multiple refactoring candidates with the ``Delta Table``
+
+* [Rank distance](https://github.com/ahrimhan/rank-distance) (written in ``Python``)
+Implementation for comparing the rank distance between static based and dynamic based refactoring approaches (for experiment purpose)
+
+* [Java Code Quality Analysis Tool](https://github.com/ahrimhan/artool-java) (written in ``Java``)
+Java source code analysis and metric measurement tool
+
+
+## Awards and Contribution
 
 * Nov. 2014 - Apr. 2017, **sole Principal Investigator**, Individual Basic Science & Engineering Research Program   
 [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main), $125,000
-[[certificate]](https://ahrimhan.github.io/files/fund2Individual.pdf) [[translated version]](https://ahrimhan.github.io/files/fund2IndividualTranslate.pdf)
+[[certificate]](/files/fund2Individual.pdf) [[translated version]](/files/fund2IndividualTranslate.pdf)
+
+* [Suggestions of Refactoring Candidates to Active Open Source](https://github.com/ahrimhan/jgit/commit/29f61768bd8b66e5351142333b4d49ecc9adaae4)  
+We applied the identified refactorings to the active open source project, ``JGit (version 4.7.1)``. We performed our approach of refactoring identification process automatically by choosing the refactorings that improve the maintainability of a fitness function to the greatest extent. Among the suggested refactorings, we selected to submit ``two of the refactorings`` found when using the fitness function of ``EPM``: **Move Method** ``clean`` from class ``WindowCache`` to class ``Entry`` and **Move Method** ``clean`` from class ``DfsBlockCache`` to class ``HashEntry``. The class ``Entry`` and the class ``HashEntry`` are the inner classes. The method ``clean`` tends to access the methods and attributes in each inner class (i.e., ``Feature Envy`` design problems); thus, it is better to move the methods to those inner classes where those methods are actually used.

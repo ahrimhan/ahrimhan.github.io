@@ -11,12 +11,12 @@ author_profile: true
 
 * Nov. 2014 - Apr. 2017, **sole Principal Investigator**, Individual Basic Science & Engineering Research Program   
 [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main), $125,000
-[[certificate]](https://ahrimhan.github.io/files/fund2Individual.pdf) [[translated version]](https://ahrimhan.github.io/files/fund2IndividualTranslate.pdf)
+[[certificate]](/files/fund2Individual.pdf) [[translated version]](/files/fund2IndividualTranslate.pdf)
 
 
 * Nov. 2013 - Oct. 2014, **sole Principal Investigator**, Post-Doctoral Fellowship Grant    
 [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main), $33,000
-[[certificate]](https://ahrimhan.github.io/files/fund1Postdoc.pdf) [[translated version]](https://ahrimhan.github.io/files/fund1PostdocTranslate.pdf)
+[[certificate]](/files/fund1Postdoc.pdf) [[translated version]](/files/fund1PostdocTranslate.pdf)
 
 
 ## Awards
@@ -24,12 +24,12 @@ author_profile: true
 * 2016, **Best Paper Award**  
 Software Engineering Society of Korean Institute of Information Scientists and Engineers (KIISE)  
 Prize: $1,000
-[[PDF]](https://ahrimhan.github.io/files/bestpaper_softwaresociety2016.pdf)
+[[PDF]](/files/bestpaper_softwaresociety2016.pdf)
 
 
 * 2015, **Best Paper Award**  
 Korea Conference on Software Engineering
-[[PDF]](https://ahrimhan.github.io/files/bestpaper_KCSE2015.pdf)
+[[PDF]](/files/bestpaper_KCSE2015.pdf)
 
 
 * 2011 - 2012, **SAMSUNG Scholarship Program**  

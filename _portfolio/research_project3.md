@@ -4,23 +4,21 @@ title: "Fast refactoring candidate assessment metric"
 collection: portfolio
 ---
 
-# Fast refactoring candidate assessment metric
-
 Period: March 2011 - December 2014
 
 ## Table of Contents
-1. [Motivation and Goal](#mg)
+1. [Motivation and Goal](#mg)  
 2. [Method](#method)  
-  2.1. [Assessment in the refactoring identification process](#overview)
+  2.1. [Assessment in the refactoring identification process](#overview)  
   2.2. [Software design is captured into a graph](#step1)  
   2.3. [Delta Table calculation](#step2)  
 3. [Evaluation](#evaluation)  
-  3.1 [Research questions](#RQ)
+  3.1 [Research questions](#RQ)  
   3.2 [Data sets](#datasets)  
-  3.3 [Comparators](#comparators)
-  3.4 [Evaluation measures](#evaluationmeasures)
+  3.3 [Comparators](#comparators)  
+  3.4 [Evaluation measures](#evaluationmeasures)  
 4. [Results](#results)  
-  4.1 [Efficiency](#RQ1)
+  4.1 [Efficiency](#RQ1)  
   4.2 [Usefulness](#RQ2)  
 5. [Conclusion](#conclusion)  
 6. [Papers](#papers)  
@@ -32,7 +30,7 @@ Period: March 2011 - December 2014
 
 The cost for assessing refactoring candidates is computation-intensive. For automating refactoring identification, previous studies have limitations for assessing the impact of a large number of refactoring candidates.
 
-In our paper, we propose a fast refactoring candidate assessment metric, `Delta Table`. This metric is an efficient method for assessing the impact of refactoring candidates on maintainability based on matrix computation, which is approximate but fast. This metric helps to select the most efficient refactoring candidates for the large-scale software.
+In this project, I propose a fast refactoring candidate assessment metric, `Delta Table`. This metric is an efficient method for assessing the impact of refactoring candidates on maintainability based on matrix computation, which is approximate but fast. This metric helps to select the most efficient refactoring candidates for the large-scale software.
 
 
 ## Method <a name="method"></a>
@@ -51,22 +49,24 @@ From the object-oriented source codes, the software design is captured into a gr
 
 The ``Delta Table (D)`` is the ``matrix (rows: entities, columns: classes)``. Each element in the ``Delta Table (D_{ij})`` represents ``the variance of the number of external relations`` (i.e., relations across the classes) when moving ``entity i`` to ``class j``.
 
-<details><summary>**Illustrative calculation of ``Delta Table``**</summary>
+**Illustrative calculation of ``Delta Table``**  
 ![researchDeltaCalculation](/images/researchDeltaCalculation.png)
-</details><br>
+
 
 **Step of the ``Delta Table`` calculation**  
 From the design graph, the link and membership matrices are constructed.
-* ``Link matrix (L)``
-  * ``L(e1, e2)``: entity `e1` has a relation to entity `e2`
-  * ``Lint`` | ``Lext``: ``internal`` | ``external`` relations that are associated between entities ``in the same class`` | ``across the classes``
-* ``Membership matrix (M)``
+* ``Link matrix (L)``  
+  * ``L(e1, e2)``: entity `e1` has a relation to entity `e2`  
+  * ``Lint`` \| ``Lext``:  
+    ``internal`` \| ``external`` relations that are associated between entities ``in the same class`` \| ``across the classes``      
+* ``Membership matrix (M)``  
   * ``M(e, C)``: entity `e` is placed in class `C`
 
 The projection matrix is produced by multiplying the link and membership matrices.
-* ``Project matrix (P)``
-  * ``P(e1, C)``: entity `e1` has a relation to an entity placing in class `C`
-  * ``Pint`` | ``Pext``: ``internal`` | ``external`` project matrix
+* ``Project matrix (P)``  
+  * ``P(e1, C)``: entity `e1` has a relation to an entity placing in class `C`  
+  * ``Pint`` \| ``Pext``:  
+    ``internal`` \| ``external`` project matrix
     * ``Pint = Lint x M``, ``Pext = Lext x M``
 
 
@@ -75,6 +75,7 @@ The formulation is devised by taking the effects (simulating) of moving entities
 
 
 * ``inverse function()``
+
 ```java
   int [][] invPint = new int [num_entities][num_classes]; //inverse internal project matrix
 
@@ -103,6 +104,7 @@ The formulation is devised by taking the effects (simulating) of moving entities
 
 
 The final formulation of the ``Delta Table (D)`` is:
+
 ```
 D = invPint - Pext
 ```
@@ -112,9 +114,10 @@ D = invPint - Pext
 ### Research questions <a name="RQ"></a>
 
 ```
-RQ1. Efficiency: By how much our method is efficient for assessing the impact of refactoring candidates?
+RQ1. Efficiency: By how much our method is efficient for assessing the impact of refactoring candidates?  
 RQ2. Usefulness: Does the refactoring identification approach based on our method help improve maintainability?
 ```
+
 ### Data sets <a name="datasets"></a>
 
 **Open source projects written in Java**
@@ -179,20 +182,21 @@ I propose a matrix computation-based refactoring candidate assessment metric. Th
 * [**An efficient approach to identify multiple and independent Move Method refactoring candidates**](http://dx.doi.org/10.1016/j.infsof.2014.10.007)  
    **Ah-Rim Han**, Doo-Hwan Bae, Sungdeok Cha  
    Information and Software Technology (IST), Vol. 59, pp. 53–66, Mar. 2015  
-   [[PDF]](https://ahrimhan.github.io/files/ist2015MultipleRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2014.10.007)  
+   [[PDF]](/files/ist2015MultipleRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2014.10.007)  
 
 * [**An efficient method for assessing the impact of refactoring candidates on maintainability based on matrix computation**](http://dx.doi.org/10.1109/APSEC.2014.69)  
    **Ah-Rim Han**, Doo-Hwan Bae  
    Proceedings of the 21st Asia-Pacific Software Engineering Conference (APSEC), pp. 453-460, Dec. 2014  
    (27% acceptance ratio, 55/202)  
-   [[PDF]](https://ahrimhan.github.io/files/apsec2014DeltaTable.pdf) [[DOI]](http://dx.doi.org/10.1109/APSEC.2014.69) [[Slide]](https://ahrimhan.github.io/files/slideApsec2014.pdf)
+   [[PDF]](/files/apsec2014DeltaTable.pdf) [[DOI]](http://dx.doi.org/10.1109/APSEC.2014.69) [[Slide]](/files/slideApsec2014.pdf)
 
 ## Tools <a name="tools"></a>
 
-//todo
+* [fastdelta](https://github.com/ahrimhan/fastdelta) (written in ``C++``)
+Native C++ implementation of the Delta Table calculation (for only MacOS)
 
 ## Awards <a name="awards"></a>
 
 * Nov. 2013 - Oct. 2014, **sole Principal Investigator**, Post-Doctoral Fellowship Grant    
 National Research Foundation of Korea (NRF), $33,000
-[[certificate]](https://ahrimhan.github.io/files/fund1Postdoc.pdf) [[translated version]](https://ahrimhan.github.io/files/fund1PostdocTranslate.pdf)
+[[certificate]](/files/fund1Postdoc.pdf) [[translated version]](/files/fund1PostdocTranslate.pdf)
