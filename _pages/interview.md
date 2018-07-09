@@ -38,15 +38,17 @@ redirect_from:
  * Video interview with a Program Director. Asked for a description of dissertation work, then an analysis demo showcasing the types of data you work with, and what your plans are for the future.
 
  * I interviewed at Insight Health Data Science (Boston, MA).
-Thirty minutes to one hour Skype interview with one program director (may from other programs) talking about the application.
-They asked questions like "show some code for your current project/side project",
-"what kind of project you would like to work on at Insight."
+ Thirty minutes to one hour Skype interview with one program director (may from other programs) talking about the application.
+ They asked questions like "show some code for your current project/side project",
+ "what kind of project you would like to work on at Insight."
 
-*  I gave a brief demonstration of some code I wrote for a past project, and we discussed my background and career goals.
+ *  I gave a brief demonstration of some code I wrote for a past project, and we discussed my background and career goals.
 
-* I applied online which involved submitting a CV and answering a few short questions. The bulk of the interview process consisted of a screen sharing session where you had to share a data science/ analysis project you had worked on. This was followed by questions about what you would do to answer certain questions about the data, and what other algorithms you could have used. The most important aspect was to convey that you were naturally curious, a fast learning and enjoy diving into large data sets.
+ * I applied online which involved submitting a CV and answering a few short questions. The bulk of the interview process consisted of a screen sharing session where you had to share a data science/ analysis project you had worked on. This was followed by questions about what you would do to answer certain questions about the data, and what other algorithms you could have used. The most important aspect was to convey that you were naturally curious, a fast learning and enjoy diving into large data sets.
 
-* Do a data science project and demo it live during the interview. The interviewer seemed very interested on the work I did and was eager to know more, asking very interesting questions.
+ * Do a data science project and demo it live during the interview. The interviewer seemed very interested on the work I did and was eager to know more, asking very interesting questions.
+
+ * I was asked to have an example of code prepared. We spent a good part of the interview going over that code.
 
 ## Interview Questions
 

@@ -80,7 +80,7 @@ Ministry of Science, ICT and Future Planning, South Korea
 
   ## Teaching and Mentoring
 
-  * December 11, 2013, Invited Speaker, Software Engineering course, Korea University  
+  * December 11, 2013, Invited Speaker, software engineering course, Korea University  
     * Lecture on `Making an evolvable software: Refactoring` [[ppt]](/files/LecturenoteRefactoring.pdf)
 
 
@@ -99,7 +99,7 @@ Ministry of Science, ICT and Future Planning, South Korea
 
 
   * Summer 2005, Lecturer, `Lecture for college professors: Design and Implementation for High Quality Software`, KAIST
-     * The college professors had visited our department to learn new technologies and theories, and I had a chance to give the lectures on Software Engineering courses such as `Object-Oriented design principles`, `Unified Modeling Language`, `refactoring`, and `design patterns`.
+     * The college professors had visited our department to learn new technologies and theories, and I had a chance to give the lectures on software engineering courses such as `Object-Oriented design principles`, `Unified Modeling Language`, `refactoring`, and `design patterns`.
 
 
   * Fall 2005 and Spring 2006, Teaching Assistant, `Introduction to Programming (CS101)` using JAVA, KAIST
