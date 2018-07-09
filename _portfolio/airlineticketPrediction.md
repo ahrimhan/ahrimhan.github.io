@@ -36,7 +36,7 @@ To help customers buy airline tickets, I analyzed the data affecting a ticket pr
 
 ### Data collection <a name="datacollection"></a>
 
-The data related to airplane ticket fares were collected from [KAYAK](https://www.kayak.com) and [Priceline](https://www.priceline.com). These data are collected from March 1, 2008 to May 28, 2008. The fare of airplane is so fluctuating that the fare is updated about 4 ~ 7 times a day, so the lowest fare among these prices is used. A summary of the data collected in relation to the airfare is as follows.
+The data related to airplane ticket fares were directly collected from [KAYAK](https://www.kayak.com) and [Priceline](https://www.priceline.com). These data are collected from March 1, 2008 to May 28, 2008. The fare of airplane is so fluctuating that the fare is updated about 4 ~ 7 times a day, so the lowest fare among these prices is used. A summary of the data collected in relation to the airfare is as follows.
 
   |  Item  |      Description |
   |:----------:|-------------|
@@ -45,10 +45,11 @@ The data related to airplane ticket fares were collected from [KAYAK](https://ww
   | Airline | Multiple airlines (Non-stop and stopover using different airlines) |
   | Route | LAX (Los Angeles) to HNL (Honolulu) |
   | Grade | Economy |
-  | Trip way | Round trip
+  | Trip way | Round trip |
 
-### Missing value processing <a name="missprocessing"></a>
-In addition, the price of an airplane ticket is influenced by oil price. The oil prices from March 1, 2008 to May 28, 2008 were obtained from the [iPath S&P GSCI Crude Oil Tot Ret Idx ETN (OILNF)](https://finance.yahoo.com/quote/OILNF?p=OILNF) in the [finance section in the US Yahoo site](https://finance.yahoo.com/). Oil prices are not traded on weekends and holidays, there are missing values. To handle this, the data for these days was filled at the prices traded the day before. That is, ``May 25, 2008 is the Memorial Day in the US, so there is no oil price data even though it is Monday, so it is filled with the transaction price on May 23, 2008.``
+
+
+Data of airplane fares and the factors affecting ticket prices (e.g., season, week, time, and number of stops) are collected. I also collected external factors (e.g., oil prices) that can affect ticket prices.
 
 
 ### Dependent variables and Independent variables <a name="DVIV"></a>
@@ -73,7 +74,13 @@ The following variables were collected for a total of 253 instances.
 | ``trip_leave_week`` | Ordinal | - ``most_busy (0)``: Saturday <br> - ``busy (1)``: Friday <br>  - ``moderate (2)``: Sunday <br> - ``not_busy (3)``: other weeks <br> |
 | ``trip_leave_time`` | Nominal | - ``pre_am``: 12 am ~ 6 am <br> - ``early_am``: 6 am ~ 9 am <br> - ``morning``: 9 am ~ 12pm <br> - ``afternoon``: 12 pm ~ 5 pm <br>  - ``evening``: 5 pm ~ 9 pm <br> - ``night``: 9 pm ~ 12 am |
 | ``stop`` | Numeric | Number of stopovers to destination |
-| ``quarter`` | Ordinal | - ``end_quarter (0)``: 3rd to 4th weeks of March, June, September, December <br> - ``not_end_quarter (1)``: other dates |
+| ``quarter`` | Ordinal | - ``end_quarter (0)``: 3rd to 4th weeks of March, June, September, December <br> - ``not_end_quarter (1)``: other dates |  
+
+
+
+### Missing value processing <a name="missprocessing"></a>
+In addition, the price of an airplane ticket is influenced by oil price. The oil prices from March 1, 2008 to May 28, 2008 were obtained from the [iPath S&P GSCI Crude Oil Tot Ret Idx ETN (OILNF)](https://finance.yahoo.com/quote/OILNF?p=OILNF) in the [finance section in the US Yahoo site](https://finance.yahoo.com/). Oil prices are not traded on weekends and holidays, there are missing values. To handle this, the data for these days was filled at the prices traded the day before. That is, ``May 25, 2008 is the Memorial Day in the US, so there is no oil price data even though it is Monday, so it is filled with the transaction price on May 23, 2008.``  
+
 
 
 ### Data reduction: factor analysis <a name="datareduction"></a>

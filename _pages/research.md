@@ -8,8 +8,9 @@ author_profile: true
 
 My main research area has been **software engineering** in Computer Science. My main research interests include ``software maintenance`` and ``empirical studies``. I have used ``statistics``, ``data mining``, and ``automated software analysis techniques`` to assess and improve the software design quality (e.g., ``maintainability``).
 
-For over 10 years, I focused on making an evolvable software. The ``maintainability`` of software deteriorates over time, and it is very important to maintain the software resilient to accommodate changes. Much of the total software development cost is spent on maintenance costs such as adding new features, fixing errors, and improving performance to adapt to a rapidly changing markets. I studied to answer the following questions.
+For over 10 years, I focused on making an evolvable software. The ``maintainability`` of software deteriorates over time, and it is very important to maintain the software resilient to accommodate changes. Much of the total software development cost is spent on maintenance costs such as adding new features, fixing errors, and improving performance to adapt to a rapidly changing markets. Therefore, it is important to improve ``maintainability`` to reduce the software development cost.
 
+I studied to answer the following questions.  
 * **Change-proneness prediction**    
   * ``Which parts of the software change frequently?``  
 

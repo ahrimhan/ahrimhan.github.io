@@ -20,7 +20,7 @@ Date of analysis: April 1, 2008
 
 ## Problem statement <a name="ps"></a>
 
-The World Economic Forum annually publishes the Global Competitiveness Index (GCI) data from around the world. We obtained the GCI data from 43 countries for a total of six years from 2002 to 2007. When considering countries with high GCI values are advanced countries, I can find valuable insights of the advanced countries and this can be used as **a model to suggest a direction for developing countries to become advanced countries**. In this analysis, **I focus on Asia countries**.
+The World Economic Forum annually publishes the Global Competitiveness Index (GCI) data from around the world. We obtained the GCI data from 43 countries for a total of six years from 2002 to 2007. When considering countries with high ranked countries are advanced countries, I can find valuable insights of the advanced countries. This can be used as **a model to suggest a direction for developing countries to become advanced countries**. In this analysis, **I focus on Asia countries**.
 
 
 ## Data processing <a name="datacp"></a>

@@ -4,6 +4,13 @@ title: "ETC"
 collection: portfolio
 ---
 
+## 3. Side Project / Ongoing Project (from kaggle, not academic)
+
+flight ticket prediction
+오빠랑 돌려본것 (금) - wisconsin breast cancer
+Yelp reviews
+
+
 분야도 바꾸어서
 나라도 바꾸어서
 
