@@ -65,7 +65,7 @@ Advisor: [Prof. Doo-Hwan Bae](http://se.kaist.ac.kr/professor)
 
 
 * **Programming Languages and Tools**
-  * Java, Python, SQL, Markdown, Latex, C, Fortran
+  * Java, Python, SQL, Latex , Markdown, C++, Fortran
   * R, SPSS, Eclipse, Microsoft Office
 
 

@@ -192,7 +192,7 @@ I propose a matrix computation-based refactoring candidate assessment metric. Th
 
 ## Tools <a name="tools"></a>
 
-* [fastdelta](https://github.com/ahrimhan/fastdelta) (written in ``C++``)
+* [fastdelta](https://github.com/ahrimhan/fastdelta) (written in ``C++``)  
 Native C++ implementation of the Delta Table calculation (for only MacOS)
 
 ## Awards <a name="awards"></a>

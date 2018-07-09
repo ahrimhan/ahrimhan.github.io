@@ -232,16 +232,16 @@ To improve the efficiency of the refactoring identification process, I proposed 
 
 ## Tools
 
-* [Delta search](https://github.com/ahrimhan/delta-search) (written in ``Python``)
+* [Delta search](https://github.com/ahrimhan/delta-search) (written in ``Python``)  
 Prototype of the two-phased refactoring identification approach: search space reduction based on the ``Delta Table``
 
-* [Mass refactoring](https://github.com/ahrimhan/mass-refactoring) (written in ``Python``)
+* [Mass refactoring](https://github.com/ahrimhan/mass-refactoring) (written in ``Python``)  
 Implementation for choosing multiple refactoring candidates with the ``Delta Table``
 
-* [Rank distance](https://github.com/ahrimhan/rank-distance) (written in ``Python``)
+* [Rank distance](https://github.com/ahrimhan/rank-distance) (written in ``Python``)  
 Implementation for comparing the rank distance between static based and dynamic based refactoring approaches (for experiment purpose)
 
-* [Java Code Quality Analysis Tool](https://github.com/ahrimhan/artool-java) (written in ``Java``)
+* [Java Code Quality Analysis   Tool](https://github.com/ahrimhan/artool-java) (written in ``Java``)
 Java source code analysis and metric measurement tool
 
 

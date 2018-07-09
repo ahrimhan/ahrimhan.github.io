@@ -26,7 +26,7 @@ Smart buyers want to pay the least amount of money to buy a plane ticket, but it
 
 Online travel companies, such as Priceline, offer low fare alert services to help customers purchase airline tickets. When customers are interested in flights, they will be notified by email if the price have reached the one specified in advance. However, since these services are based on what has already happened, there is a disadvantage that if the prices continue to rise, they may miss the right time to buy an appropriate ticket.
 
-To help customers buy airline tickets, I analyzed the data affecting a ticket price and used data mining techniques to find patterns. Based on the prediction that the airplane ticket will rise or fall tomorrow, I can assist customers to make decision whether it is good to ``buy an airplane ticket now (Buy)`` or ``better to wait (Wait)``.
+To help customers buy airline tickets, I analyzed the data affecting a ticket price and used data mining techniques to find patterns. Based on the prediction that the airplane ticket will rise or fall tomorrow, I can assist customers to make the decision whether it is good to ``buy an airplane ticket now (Buy)`` or ``better to wait (Wait)``.
 
 <!--
 **Overview of the airfare analysis**
@@ -49,7 +49,7 @@ The data related to airplane ticket fares were directly collected from [KAYAK](h
 
 
 
-Data of airplane fares and the factors affecting ticket prices (e.g., season, week, time, and number of stops) are collected. I also collected external factors (e.g., oil prices) that can affect ticket prices.
+Data on airplane fares and the factors affecting ticket prices (e.g., season, week, time, and the number of stops) are collected. I also collected external factors (e.g., oil prices) that can affect ticket prices.
 
 
 ### Dependent variables and Independent variables <a name="DVIV"></a>

@@ -49,7 +49,7 @@ In this project, I propose a fast refactoring candidate assessment metric, `Delt
 
 Airplane ticket prices fluctuate according to various conditions, and airlines do not disclose pricing policies, so it is difficult to forecast prices. Therefore, even if you board the same plane, the amount of money you pay for a seat varies greatly. Smart buyers want to pay the least amount of money to buy a plane ticket, but it is very difficult to decide when to buy a plane ticket. Online travel companies, such as Priceline, offer low fare alert services to help customers purchase airline tickets. When customers are interested in flights, they will be notified by email if the price have reached the one specified in advance. However, since these services are based on what has already happened, there is a disadvantage that if the prices continue to rise, they may miss the right time to buy an appropriate ticket.
 
-To help customers buy airline tickets, I analyzed the data affecting airplane ticket prices and used data mining techniques to find patterns. Data of ``airplane fares`` and the ``factors affecting ticket prices`` (e.g., ``season``, ``week``, ``time``, and ``number of stops``) are directly collected from ``Priceline`` and ``Kayak``. I also collected ``external factors`` (e.g., ``oil prices``) that can affect ticket prices. Based on the prediction that the airplane ticket will rise or fall tomorrow, I can assist customers to make decision whether it is good to ``buy an airplane ticket now (Buy)`` or ``better to wait (Wait)``.
+To help customers buy airline tickets, I analyzed the data affecting airplane ticket prices and used data mining techniques to find patterns. Data on ``airplane fares`` and the ``factors affecting ticket prices`` (e.g., ``season``, ``week``, ``time``, and the ``number of stops``) are directly collected from ``Priceline`` and ``Kayak``. I also collected ``external factors`` (e.g., ``oil prices``) that can affect ticket prices. Based on the prediction that the airplane ticket will rise or fall tomorrow, I can assist customers to make the decision whether it is good to ``buy an airplane ticket now (Buy)`` or ``better to wait (Wait)``.
 
 
 ### [Model for Asia Countries using Global Competitiveness Index (GCI) Data](/portfolio/asiaModel/)  
@@ -58,11 +58,11 @@ To help customers buy airline tickets, I analyzed the data affecting airplane ti
 The World Economic Forum annually publishes the Global Competitiveness Index (GCI) data from around the world. We obtained the GCI data from 43 countries for a total of six years from 2002 to 2007. When considering countries with high ranked countries are advanced countries, I can find valuable insights of the advanced countries. This can be used as a model to suggest a direction for developing countries to become advanced countries. In this analysis, I focus on Asia countries.
 
 
-## 2. Reason to become a data scientist <a name="reasondatascientist"></a>
+## 2. Reason to Become a Data Scientist <a name="reasondatascientist"></a>
 
 ### Software engineering and Data Science
 
-My main research area has been **software engineering** in Computer Science.
+My main research area has been **software engineering** in computer science.
 Software engineering provides systematic methods, automated tools, techniques, processes to assist developers for software development. Using various data, the researchers in software engineering have solved the problems such as `defect prediction` and `software failure estimation`. Data science and software engineering are very similar in that they are both data-driven activities.
 
 
@@ -74,7 +74,7 @@ First, I have been working on evaluating and improving software design quality u
 
 Second, I would like to have a chance to work on analyzing the large-scale data set for solving real-world problems. I want to expand my work from the software to users and find business insights such as predicting user behavior patterns by analyzing various kinds of data sets (e.g., behavioral traces of user interactions with online systems).
 
-Third, I want to feel excited by working in leading tech companies. I am fast to learn new technologies and enjoy working in a dynamically changing environment. As my major is computer science and software engineering, I can quickly learn the newest innovations in deep learning and machine learning techniques, which can help me to become an advanced data scientist.
+Third, I want to feel excited about working in leading tech companies. I am fast to learn new technologies and enjoy working in a dynamically changing environment. As my major is computer science and software engineering, I can quickly learn the newest innovations in deep learning and machine learning techniques, which can help me to become an advanced data scientist.
 
 ## 3. Project Plan in Insight <a name="projectplan"></a>
 
@@ -84,7 +84,7 @@ I would like to analyze the data of online consumer reviews and find business in
 * What reviews do not customers trust? (e.g., reviews full of compliments, highly rating scores with a few reviews, short comments written for the free food, etc.)
 * What reviews do customers trust? (e.g., highly ranked in the search, rating scores over 4, many well-organized menu photos, many high-resolution food photos, many reviews from elite members, etc.)
 
-I am also interested in ``software defect prediction``, ``fraud news detection``, and challenges using ``Kaggle data set``. I will keep in finding more interesting projects and choose the final project after receiving comments from mentors during the program.
+I am also interested in ``software defect prediction``, ``fraud news detection``, or challenges using ``Kaggle dataset``. I will keep in finding more interesting projects and choose the final project after receiving comments from mentors during the program.
 
 
 ## 4. Reason for the Insight Data Science Fellows Program <a name="reasoninsight"></a>
