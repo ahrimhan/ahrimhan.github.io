@@ -31,27 +31,29 @@ Advisor: [Prof. Doo-Hwan Bae](http://se.kaist.ac.kr/professor)
 
 
 ## Work Experience
-* Sep 2013 - Apr 2018, [**Korea University**](http://www.korea.ac.kr/mbshome/mbs/en/index.do), Seoul, South Korea  
-*Position: Research Professor*  
-   * Led the research projects for automating the refactoring identification process as a sole Principal Investigator
-   * Advised graduate students to develop research topics and conduct the experiments
-   * Published the research results to the top tier Software Engineering journal, IEEE Transactions on Software} Engineering  
+   * Sep 2013 - Apr 2018, [**Korea University**](http://www.korea.ac.kr/mbshome/mbs/en/index.do), Seoul, South Korea  
+   *Position: Research Professor*  
+      * Led the research projects for automating the refactoring identification process as a sole Principal Investigator
+      * Advised graduate students to develop research topics and conduct the experiments
+      * Published the research results to the top tier Software Engineering journal, ``IEEE Transactions on Software Engineering``
 
 
-* Mar. 2005 - Aug. 2013, [**Korea Advanced Institute of Science and Technology (KAIST)**](http://www.kaist.ac.kr/html/en/index.html), Daejeon, South Korea  
-*Position: Research and Teaching Assistant*
-  * Played an active role in setting up assignments and taught a few classes for several computer science subjects, ``Introduction to Programming (CS101)``, ``Advanced Software Engineering (CS650)``, ``Computer Science Project (CS408)``, and ``Principles of Software Engineering (SEP521)``  
+   * Mar. 2005 - Aug. 2013, [**Korea Advanced Institute of Science and Technology (KAIST)**](http://www.kaist.ac.kr/html/en/index.html), Daejeon, South Korea  
+   *Position: Research and Teaching Assistant*
+     * Played an active role in setting up assignments and taught a few classes for several computer science subjects, ``Introduction to Programming (CS101)``, ``Advanced Software Engineering (CS650)``, ``Computer Science Project (CS408)``, and ``Principles of Software Engineering (SEP521)``
+     * Developed the method to improve the efficiency of refactoring identification process by devising an efficient algorithm for calculating the impacts of the application for a large number of refactoring candidates
+     * Developed the tool for automated refactoring identification with Java and Python  
 
 
-* Aug. 2004 - Oct. 2004, [**Peace Corps**](https://www.peacecorps.gov/) (Headquarters), Washington D.C., USA  
-*Position: Intern*
-   * Served in organizing and populating the intranet web pages in the Technical Infrastructure and Support Team under the Office of the Chief Information Officer (Funded by Human Resources Development Service of Korea)
-   * Happy memories can be found: [photos](https://photos.app.goo.gl/K1cXantwmb8j9xYa9).  
+   * Aug. 2004 - Oct. 2004, [**Peace Corps**](https://www.peacecorps.gov/) (Headquarters), Washington D.C., USA  
+   *Position: Intern*
+      * Served in organizing and populating the intranet web pages in the Technical Infrastructure and Support Team under the Office of the Chief Information Officer (Funded by Human Resources Development Service of Korea)
+      * Happy memories can be found: [photos](https://photos.app.goo.gl/K1cXantwmb8j9xYa9).  
 
 
-* Feb. 2004 - Apr. 2004, Zio Interactive (acquired by Neowiz Mobile), Seoul, South Korea  
-*Position: Software Developer Intern*  
-   * Worked in the mobile game company and contributed solely to porting an existing soccer game to a new game development environment (SDK from Qualcomm BREW (KT) to SK-VM (SKT))  
+   * Feb. 2004 - Apr. 2004, Zio Interactive (acquired by Neowiz Mobile), Seoul, South Korea  
+   *Position: Software Developer Intern*  
+      * Worked in the mobile game company and contributed solely to porting an existing soccer game to a new game development environment (SDK from Qualcomm BREW (KT) to SK-VM (SKT))
 
 
 ## Skills
@@ -177,46 +179,50 @@ Defense: May 8, 2013
 [[PDF]](/files/PhDdissertation.pdf) [[Slide]](/files/PhDdisseration_presentation.pdf)  
 
 
-## Research Projects
+## Funded Projects
 
-* Nov. 2014 - Apr. 2017, `An Approach to Automating Refactoring for Evolvable Software`
+* Nov. 2014 - Apr. 2017, `An Approach to Automating Refactoring for Evolvable Software`  
 **(Individual Basic Science & Engineering Research Program)**  
 Nov. 2013 - Oct. 2014, `Research on Automated Software Maintainability Improvement`  
-**(Post-Doctoral Fellowship Grant)**  
-**sole Principal Investigator**  
+**(Post-Doctoral Fellowship Grant)**    
+**sole Principal Investigator**   
 *National Research Foundation of Korea (NRF)*, Daejeon, South Korea  
   * Developed the method to improve the efficiency of refactoring identification process by devising an efficient algorithm for calculating the impacts of the application for a large number of refactoring candidates
   * Led to develop tools for automating the refactoring identification process and performed several empirical studies on large-scale open sources
   * Published the results to the top tier Software Engineering conferences and journals  
 
+<!-- Sep. 2013 - Dec. 2016, `Research on Tools for Highly Assured SW Development and High-Level Education for SW Engineers`  
+Information Technology Research Center (ITRC)  
+Ministry of Science, ICT and Future Planning, South Korea
+-->
 
-* Jul. 2008 - Dec. 2008, `Software Process Improvement and Capability Analysis based on K-Model`    
+* Jul. 2008 - Dec. 2008, `Software Process Improvement and Capability Analysis based on K-Model`      
 *Korea IT Industry Promotion Agency*, Seoul, Korea
-  * Develop metrics for analyzing improvement and capability of the software processes that are applied on the targeting companies.
-  * Provide guidelines for collecting data.
-  * Analyze the software process improvement and capability according to the characteristics of the projects, organizations, and companies.  
+  * Develop metrics for analyzing improvement and capability of the software processes that are applied on the targeting companies
+  * Provide guidelines for collecting data
+  * Analyze the software process improvement and capability according to the characteristics of the projects, organizations, and companies
 
 
-* Jan. 2007 - Oct. 2008, `Power Consumption Estimation Framework for UML-based Embedded Software Models`  
+* Jan. 2007 - Oct. 2008, `Power Consumption Estimation Framework for UML-based Embedded Software Models`    
 *Software Engineering Laboratory*, KAIST, Daejeon, Korea  
-  * Develop the power consumption estimation technique that can be used at the early stage of software development.
-  * Estimate the power consumption for model elements (e.g., function, component, etc.) of UML-based embedded software models.
-  * Develop the visualizing method for the obtained results.  
+  * Develop the power consumption estimation technique that can be used at the early stage of software development
+  * Estimate the power consumption for model elements (e.g., function, component, etc.) of UML-based embedded software models
+  * Develop the visualizing method for the obtained results
 
 
 * Mar. 2006 - Feb. 2008, `Process Tailoring Techniques for Defense Software`  
 *Agency for Defense Development*, Daejeon, Korea   
-  * Develop the methods for making process knowledge as assets and categorizing those process knowledge.
-  * Develop the methods for constructing and managing process knowledge repository.
-  * Develop the systematic method of process tailoring for automation.  
+  * Develop the methods for making process knowledge as assets and categorizing those process knowledge
+  * Develop the methods for constructing and managing process knowledge repository
+  * Develop the systematic method of process tailoring for automation
 
 
 * Mar. 2005 - Jan. 2007, `Embedded Software Design and Verification Techniques for Multiprocessor System-on-Chip (MPSoC)`  
-*Ministry of Information and Communication*, Seoul, Korea  
-  * Develop the modeling methodology for embedded software.
-  * Develop the static analysis and behavior simulation techniques for embedded software models.
-  * Develop the partitioning technique of embedded software models.
-  * Develop the verification and functional simulation techniques for partitioned embedded software models.  
+*Ministry of Information and Communication*, Seoul, Korea   
+  * Develop the modeling methodology for embedded software
+  * Develop the static analysis and behavior simulation techniques for embedded software models
+  * Develop the partitioning technique of embedded software models
+  * Develop the verification and functional simulation techniques for partitioned embedded software models
 
 
 ## Teaching and Mentoring

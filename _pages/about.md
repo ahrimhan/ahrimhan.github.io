@@ -26,7 +26,7 @@ So far, as a first author, I have published 4 and 2 peer-reviewed papers in jour
 From now on, I would like to work in companies for solving real-world problems.
 I have the special interest in finding business insights by leveraging big data intelligence.
 
-You can find my most recent CV [[pdf]](/files/arhanCV.pdf) [[link]](/cv/) and resume [[pdf]](/files/arhanResume.pdf).  
+You can find my most recent CV [[pdf]](/files/arhan_cv.pdf) [[link]](/cv/) and resume [[pdf]](/files/arhanResume.pdf).  
 
 
 <!--
