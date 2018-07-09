@@ -4,6 +4,11 @@ title: "ETC"
 collection: portfolio
 ---
 
+분야도 바꾸어서
+나라도 바꾸어서
+
+저는 지금저의 커리어 상에서 3가지 큰 도전을 마주하고 있는데, 하나는 아카데미아에서 회사로 옮기려는 것이고, 하나는 분야를 소프트웨어 엔지니어 에서 데이터 사이언티스로 바꾸려고 하는것이고, 마지막은 이민을 통하여 살고 일하던 나라를 변경하는 것이다.
+
 # Data Science Insight cover letter
 I have the special interest in finding business insights by leveraging big data intelligence.
 

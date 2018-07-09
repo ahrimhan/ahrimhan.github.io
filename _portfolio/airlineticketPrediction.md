@@ -234,4 +234,6 @@ From this model, we can determine you may buy the ticket today if ``oil_price > 
 
 ## Summary <a name="summary"></a>
 
+From the result, I notice that the price of airplane tends to increase as the travel date approaches. When the number of days remaining until the date of travel is the same, Thursday and Sunday start at a lower price, while Friday and Saturday start at a higher price.
+
 The prediction result that the tomorrow airplane price will rise or fall compared to the today price can be useful to customers who want to purchase airplane tickets. As mentioned above, it is difficult to predict the timing of the purchase of the optimal airline ticket because the airline pricing is very complicated due to many factors. Much more of data for longer period needs to be collected for building a more accurate prediction model.

@@ -71,18 +71,9 @@ I am also interested in software defect prediction, fraud news detection, and ch
 
 ## 3. Reason for the Insight Data Science Fellows Program
 
-아카데미아에서 회사로
-분야도 바꾸어서
-나라도 바꾸어서
-이런 나에게 기회를 주는 프로그램. 너무 감사하고 이런 프로그램을 알게 되어서 너무 럭키하고.
+Now I am confronted with three big challenges: moving from academia to industry, changing major in software engineering to data science, and moving the country I live and work. In a difficult situation where none of the things is easy, Insight Data Science Fellows Program gave me the hope that I can transit the career from academia to industry.
 
-지금 나는 아카데미아에서 회사로써의 트랜지션이라는 큰 도전을 페이싱 하고 있는데
-내가 관심이 많고 잘 할수 있을 것 같은 직업인 데이터 사이언스로서 앞으로 커리어를 쌓고 성장하고 싶다.
-
-
-
-<cover letter>
-I am eager to have an opportunity to participate in the Insight Data Science Fellows Program. If I get an offer, I will do my best to show all my potentials in the project. I strongly believe I can successfully transit the career from a researcher in software engineering to a data scientist in industry.
+I am eager to have an opportunity to participate in the Insight Data Science Fellows Program. If I get an offer, I will do my best to show all my potentials in the project. Through this program, I strongly believe I will be able to successfully build my career as a data scientist. I am grateful to know about this program and wish to be able to help as a mentor later.
 
 I am now currently want to work in Orange County, but I am available to move to Silicon Valley or Seattle areas next summer.
 
@@ -116,3 +107,13 @@ To find a sequence of cost-effective refactorings, I proposed the method for sel
 The cost for assessing refactoring candidates is computation-intensive. For automating refactoring identification, previous studies have limitations for assessing the impact of a large number of refactoring candidates.
 
 In this project, I propose a fast refactoring candidate assessment metric, `Delta Table`. This metric is an efficient method for assessing the impact of refactoring candidates on maintainability based on matrix computation, which is approximate but fast. This metric helps to select the efficient refactoring candidates for the large-scale software.
+
+### [Supporting airline ticket purchase: Buy now or wait?](/portfolio/airlineticketPrediction/)
+
+Airplane ticket prices fluctuate according to various conditions, and airlines do not disclose pricing policies, so it is difficult to forecast prices. Therefore, even if you board the same plane, the amount of money you pay for a seat varies greatly. Smart buyers want to pay the least amount of money to buy a plane ticket, but it is very difficult to decide when to buy a plane ticket. Online travel companies, such as Priceline, offer low fare alert services to help customers purchase airline tickets. When customers are interested in flights, they will be notified by email if the price have reached the one specified in advance. However, since these services are based on what has already happened, there is a disadvantage that if the prices continue to rise, they may miss the right time to buy an appropriate ticket.
+
+To help customers buy airline tickets, I analyzed the data affecting a ticket price and used data mining techniques to find patterns. Based on the prediction that the airplane ticket will rise or fall tomorrow, I can assist customers to make decision whether it is good to ``buy an airplane ticket now (Buy)`` or ``better to wait (Wait)``.
+
+### [Model for Asia Countries using Global Competitiveness Index (GCI) Data](/portfolio/asiaModel/)
+
+The World Economic Forum annually publishes the Global Competitiveness Index (GCI) data from around the world. We obtained the GCI data from 43 countries for a total of six years from 2002 to 2007. When considering countries with high GCI values are advanced countries, I can find valuable insights of the advanced countries and this can be used as a model to suggest a direction for developing countries to become advanced countries. In this analysis, I focus on Asia countries.
