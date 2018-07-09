@@ -1,6 +1,6 @@
 ---
-permalink: /datascience/
-title: "Data Science"
+permalink: /insightprogram/
+title: "Insight Program Application"
 author_profile: true
 ---
 
@@ -23,6 +23,8 @@ More information about my research and published papers can be found in the foll
 
 
 ## 2. Skills and tools
+
+
 
 ## 3. Side Project / Ongoing Project (from kaggle, not academic)
 
