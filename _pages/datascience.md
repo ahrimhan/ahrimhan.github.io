@@ -89,8 +89,8 @@ I am also interested in ``software defect prediction``, ``fraud news detection``
 
 ## 4. Reason for the Insight Data Science Fellows Program <a name="reasoninsight"></a>
 
-Now I am confronted with three big challenges: moving from academia to industry, changing major in software engineering to data science, and moving the country I live and work. In a difficult situation where none of the things is easy, Insight Data Science Fellows Program gave me the hope that I can transit the career from academia to industry.
+Now I am confronted with three big challenges: moving from academia to industry, changing major in software engineering to data science, and moving the country I live and work. In a difficult situation where none of the things is easy, the Insight Data Science Fellows Program gave me the hope that I can transit the career from academia to industry.
 
 I am eager to have an opportunity to participate in the Insight Data Science Fellows Program. If I get an offer, I will do my best to show all my potentials in the project. Through this program, I strongly believe I will be able to successfully build my career as a data scientist. I am grateful to know about this program and wish to be able to help as a mentor later.
 
-I am now currently want to work in Orange County, but I am available to move to Silicon Valley or Seattle areas next summer.
+I currently want to work in Orange County, but I am available to move to Silicon Valley or Seattle areas next summer.
