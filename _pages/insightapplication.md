@@ -70,3 +70,19 @@ I want to become a data scientist in high tech software companies. First, buildi
 I have the special interest in analyzing the data of online consumer reviews and find business insights. The rich data of consumer reviews (e.g., reviews at Yelp or Amazon) or reactions (e.g., likes at Facebook) is the valuable source for finding business insights and patterns. I am also interested in software defect prediction, fraud news detection, or challenges using Kaggle dataset.
 
 I explain my motivation and interests to become a data scientist and summarize projects related to data science in the link: [data science](https://ahrimhan.github.io/datascience/).
+
+## 6. Data Engineering
+Why are you interested in Data Engineering Fellowship?
+Your Data Engineering specific skills and qualifications?
+
+Yes, I am also interested in applying for the Data Engineering Fellows Program.
+
+I understand the importance of data collection, storage, and processing because I have had difficulty obtaining the quality of the data. The larger the amount of data, the more important it becomes to collect and process the data smarter. I think that the ability to process data directly is like a chef can cook more delicious food with better ingredients, so I want to have the data engineering skill in order to become an advanced data scientist.
+
+Here is the list of technical skills that I have for being a data engineer.
+* Statistical analysis and modeling
+* SQL-based technologies
+* Python, C++, Java
+* R and SPSS
+
+As I have the background in computer science and software engineering, I can quickly learn languages and technologies (e.g, MapReduce). I have used the data modeling tools (e.g., Enterprise Architect) for my research purpose.

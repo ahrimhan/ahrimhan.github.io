@@ -20,7 +20,7 @@ During my Ph.D. studies, I expanded my work to provide the systematic approach f
 You can reference the top ranking papers in the area of Software Systems released by Google Scholar [here](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_softwaresystems).
 
 
-So far, as a first author, I have published 4 and 2 peer-reviewed papers in journals and conferences, respectively. I received the two grants from the [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main) and worked as a sole Principal Investigator. I also have served as a reviewer for many journals and conferences. I also have several successful experiences to mentor and teach students in the university. As a teaching assistant in software engineering classes, I played an active role in setting up assignments and exams and grading them.
+So far, as a first author, I have published 4 and 2 peer-reviewed papers in top-level journals and conferences, respectively. I received the two grants from the [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main) and worked as a sole Principal Investigator. I also have served as a reviewer for many journals and conferences. I also have several successful experiences to mentor and teach students in the university. As a teaching assistant in software engineering classes, I played an active role in setting up assignments and exams and grading them.
 
 
 From now on, I would like to work in companies for solving real-world problems.
