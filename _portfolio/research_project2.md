@@ -58,8 +58,8 @@ To find a sequence of cost-effective refactorings, I proposed the method for sel
 
 > **RQ1.** Is the dynamic information helpful in identifying refactorings that effectively improve maintainability?  
 **RQ2.** Do the multiple refactorings reduce the computational cost required to achieve the same maintainability?  
-**RQ3.** Is the two-phase assessment approach efficient?
-     How well does the ``Delta Table`` correctly identify refactoring candidates that have actual higher maintainability metric values?
+**RQ3.** Is the two-phase assessment approach efficient?  
+How well does the ``Delta Table`` correctly identify refactoring candidates that have actual higher maintainability metric values?
 
 
 
@@ -108,8 +108,9 @@ Comparators:
 ### Evaluation measure
 
 ```
-Rate of reduction for propagated changes (%):
-Percentage of reduction for propagated changes(final) - Percentage of reduction for propagated changes(initial) / # applied refactorings
+- Rate of reduction for propagated changes (%):
+Percentage of reduction for propagated changes(final) -   
+Percentage of reduction for propagated changes(initial) / # applied refactorings
 ```
 The efficiency of the identified refactorings can be evaluated by observing how fast the number of the propagated changes is reduced.
 
@@ -169,7 +170,8 @@ Even though there is an overhead to compute ``maximal independent set (MIS)`` in
 ```
 Comparators:
 - Delta top 20% (our approach)
-  : Two-phase approach (top 20% ranked using the Delta Table are evaluated using a fitness function)  
+  : Two-phase approach  
+  (top 20% ranked using the Delta Table are evaluated using a fitness function)  
 - No-reduction approach
 ```
 
