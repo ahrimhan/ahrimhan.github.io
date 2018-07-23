@@ -107,9 +107,12 @@ Therefore, we inject changes and count the propagated changes on the three diffe
 ### Evaluation measure  
 The efficiency of the identified refactorings can be evaluated by observing how fast the number of the propagated changes is reduced.
 
-|Evaluation measure| Expression |
-|:---|---|
-| Rate of reduction for propagated changes (%)| { Percentage of reduction for propagated changes(final) - Percentage of reduction for propagated changes(initial) } / # applied refactorings |
+|Evaluation measure|
+|:---|
+| Rate of reduction for propagated changes (%)|
+
+The rate of reduction for propagated changes (%) can be calculated as:   
+{ Percentage of reduction for propagated changes(final) - Percentage of reduction for propagated changes(initial) } / # applied refactorings.
 
 
 ### Results
@@ -134,11 +137,11 @@ We compare the approach of identifying ``multiple refactorings (our approach)`` 
 
 ### Evaluation measures
 
-|Evaluation measures|
+|Required cost to reach the final solution of maintainability metric|
 |:---|
-|Required cost to reach the final solution of maintainability metric: <br> - Number of iterations <br> - Time |
+|- Number of iterations <br> - Time |
 
-In our [paper](http://dx.doi.org/10.1016/j.infsof.2012.12.002), we defined the ``maintainability metric`` as  <sup>cohesion</sup>&frasl;<sub>coupling</sub> because ``this metric produces larger fitness values`` as the software gets more maintainable with ``higher cohesion`` and ``lower coupling``. In object-oriented software, high cohesion and low coupling have been accepted as important factors for good software design quality in terms of maintenance, because less propagation of changes to other parts of the system or side effects would occur. Cohesion corresponds to the degree to which elements of a class belong together, and coupling refers to the strength of association established by a connection from one class to another.
+Please note that, in our [paper](http://dx.doi.org/10.1016/j.infsof.2012.12.002), we defined the ``maintainability metric`` as  <sup>cohesion</sup>&frasl;<sub>coupling</sub> because ``this metric produces larger fitness values`` as the software gets more maintainable with ``higher cohesion`` and ``lower coupling``. In object-oriented software, high cohesion and low coupling have been accepted as important factors for good software design quality in terms of maintenance, because less propagation of changes to other parts of the system or side effects would occur. Cohesion corresponds to the degree to which elements of a class belong together, and coupling refers to the strength of association established by a connection from one class to another.
 * ``Cohesion metric``: [``MSC (Message Similarity Cohesion)``](https://dl.acm.org/citation.cfm?id=1185469)
 * ``Coupling metric``: [``MPC (Message Passing Coupling)``](https://dl.acm.org/citation.cfm?id=170622)
 
@@ -163,7 +166,8 @@ Even though there is an overhead to compute ``maximal independent set (MIS)`` in
 
 |Comparators|
 |:---|
-| - Delta top 20% (our approach) <br> : Two-phase approach (top 20% ranked using the Delta Table are evaluated using a fitness function) <br> - No-reduction approach |
+| - Delta top 20% (our approach) <br> - No-reduction approach |
+The Delta top 20% (our approach) indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function.
 
 The used ``fitness functions`` are ``MPC (Message Passing Coupling)``, ``Connectivity``, and ``EPM (Entity Placement metric)``.
 For improving maintainability, fitness functions should be increased or decreased: ``MPC (-)``, ``Connectivity (+)``, and ``EPM (-)``.
@@ -172,19 +176,24 @@ For improving maintainability, fitness functions should be increased or decrease
 
 * **Efficiency of the two-phased approach**  
 
-|Efficiency measure|
+|Efficiency measures|
 |:---|
-| - Total time <br> - Speed up <br> : Speed up x means that time of Delta top 20% (our approach) is x times as fast as time of no-reduction approach. <br> : Speed up = Time for no-reduction / Time for Delta top 20% |
+| - Total time <br> - Speed up|
 
-* **Performance of the ``Delta Table`` to find the candidates having higher fitness functions**  
+Speed up x means that time of Delta top 20% (our approach) is x times as fast as time of no-reduction approach. Speed up can be calculated as: Speed up = Time for no-reduction / Time for Delta top 20%.
+
+* **Performance of the ``Delta Table`` to find the candidates having higher fitness functions**
+
+|Efficiency measures|
+|:---|
+|- Precision <br> - Recall |
 
 ```
-D: set of refactoring candidates in ``Delta Table``   
-E: set of refactoring candidates   
-with positive effects on each fitness function   
-- Precision = |D ∩ E |/|D|   
-- Recall = |D ∩ E|/|E|   
+ - Precision = |D ∩ E| / |D|   
+ - Recall = |D ∩ E| / |E|
 ```
+D: set of refactoring candidates in ``Delta Table``
+E: set of refactoring candidates with positive effects on each fitness function   
 
 
 ### Results
