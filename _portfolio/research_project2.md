@@ -98,21 +98,19 @@ To assess the capability of refactorings for maintainability improvement, we use
 ``We assume that as the software becomes more maintainable, the less propagated changes would be occurred.``
 Therefore, we inject changes and count the propagated changes on the three different approaches, and ``compare the reduced number of propagated changes``.
 
-```
-Comparators:
-- Approach using dynamic information only (``Dynamic``)
-- Approach using static information only (``Static``)
-- Combination of the two approaches (``Dynamic + Static``)
-```
 
-### Evaluation measure
+|Comparators|
+|:---|
+| - Approach using dynamic information only (``Dynamic``) <br> - Approach using static information only (``Static``) <br> - Combination of the two approaches (``Dynamic + Static``) |
 
-```
-- Rate of reduction for propagated changes (%):
-Percentage of reduction for propagated changes(final) -   
-Percentage of reduction for propagated changes(initial) / # applied refactorings
-```
+
+### Evaluation measure  
 The efficiency of the identified refactorings can be evaluated by observing how fast the number of the propagated changes is reduced.
+
+|Evaluation measure| Expression |
+|:---|---|
+| Rate of reduction for propagated changes (%)| { Percentage of reduction for propagated changes(final) - Percentage of reduction for propagated changes(initial) } / # applied refactorings |
+
 
 ### Results
 > The ``average rate of reduction for propagated changes`` of the ``approaches using dynamic information are higher`` than that of the approach using only static information.
@@ -130,19 +128,15 @@ In ``Columba``, the average rate of reduction for propagated changes are ``9.09%
 ### Experimental design
 We compare the approach of identifying ``multiple refactorings (our approach)`` with that of identifying a ``single refactoring`` at each iteration of the refactoring identification process.
 
-```
-Comparators:
-- Multiple refactorings (our approach)
-- Single refactoring
-```
+|Comparators|
+|:---|
+| - Multiple refactorings (our approach) <br> - Single refactoring |
 
 ### Evaluation measures
 
-```
-Required cost to reach the final solution of maintainability metric:
-- Number of iterations
-- Time
-```
+|Evaluation measures|
+|:---|
+|Required cost to reach the final solution of maintainability metric: <br> - Number of iterations <br> - Time |
 
 In our [paper](http://dx.doi.org/10.1016/j.infsof.2012.12.002), we defined the ``maintainability metric`` as  <sup>cohesion</sup>&frasl;<sub>coupling</sub> because ``this metric produces larger fitness values`` as the software gets more maintainable with ``higher cohesion`` and ``lower coupling``. In object-oriented software, high cohesion and low coupling have been accepted as important factors for good software design quality in terms of maintenance, because less propagation of changes to other parts of the system or side effects would occur. Cohesion corresponds to the degree to which elements of a class belong together, and coupling refers to the strength of association established by a connection from one class to another.
 * ``Cohesion metric``: [``MSC (Message Similarity Cohesion)``](https://dl.acm.org/citation.cfm?id=1185469)
@@ -167,13 +161,9 @@ Even though there is an overhead to compute ``maximal independent set (MIS)`` in
 
 ### Experimental design
 
-```
-Comparators:
-- Delta top 20% (our approach)
-  : Two-phase approach  
-  (top 20% ranked using the Delta Table are evaluated using a fitness function)  
-- No-reduction approach
-```
+|Comparators|
+|:---|
+| - Delta top 20% (our approach) <br> : Two-phase approach (top 20% ranked using the Delta Table are evaluated using a fitness function) <br> - No-reduction approach |
 
 The used ``fitness functions`` are ``MPC (Message Passing Coupling)``, ``Connectivity``, and ``EPM (Entity Placement metric)``.
 For improving maintainability, fitness functions should be increased or decreased: ``MPC (-)``, ``Connectivity (+)``, and ``EPM (-)``.
@@ -182,20 +172,20 @@ For improving maintainability, fitness functions should be increased or decrease
 
 * **Efficiency of the two-phased approach**  
 
-```
-- Total time
-- Speed up: Speed Up x means that time of Delta top 20% (our approach) is x times as fast as time of no-reduction approach, and it is calculated as follows:
-  Speed up = Time for no-reduction / Time for Delta top 20%.
-```
+|Efficiency measure|
+|:---|
+| - Total time <br> - Speed up <br> : Speed up x means that time of Delta top 20% (our approach) is x times as fast as time of no-reduction approach. <br> : Speed up = Time for no-reduction / Time for Delta top 20% |
 
 * **Performance of the ``Delta Table`` to find the candidates having higher fitness functions**  
 
 ```
-D: set of refactoring candidates in ``Delta Table``
-E: set of refactoring candidates with positive effects on each fitness function
-- Precision = |D ∩ E|/|D|
-- Recall = |D ∩ E|/|E|
+D: set of refactoring candidates in ``Delta Table``   
+E: set of refactoring candidates   
+with positive effects on each fitness function   
+- Precision = |D ∩ E |/|D|   
+- Recall = |D ∩ E|/|E|   
 ```
+
 
 ### Results
 > - Our approach is efficient in that it saves a considerable amount of time while still achieving the same amount of fitness improvement as the no-reduction approach. Our approach is 2.6 (min) to 13.5 (max) times faster than the no-reduction approach.
