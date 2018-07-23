@@ -201,10 +201,10 @@ E: set of refactoring candidates with positive effects on each fitness function
 > - Our approach is efficient in that it saves a considerable amount of time while still achieving the same amount of fitness improvement as the no-reduction approach. Our approach is 2.6 (min) to 13.5 (max) times faster than the no-reduction approach.
 - The Delta Table perfectly identified all refactoring candidates that improved MPC. For Connectivity and EPM, more than 74% of candidates that have positive effects on each fitness function can be identified by the Delta Table.
 
-* **``Time`` and ``Speed up``**
+* **``Time``** and **``Speed up``**
 ![researchRefactoringTwophaseResult](/images/researchRefactoringTwophaseResult.png)
 
-* **``Precision`` and ``Recall``**
+* **``Precision``** and **``Recall``**
 ![researchRefactoringTwophaseResult2](/images/researchRefactoringTwophaseResult2.png)
 
 

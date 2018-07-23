@@ -51,38 +51,30 @@ To show that the behavioral dependency metric is the useful and additional expla
 ### Data sets <a name="datasets"></a>
 [JFreeChart ver 1.0.0](https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.0/): Open-source Java class library for generating various types of charts  
 
-* Measured metrics: six [C&K metrics](https://ieeexplore.ieee.org/document/295895/) (``Independent variables``)
+* Measured metrics: six [C&K metrics](https://ieeexplore.ieee.org/document/295895/)
 
-```
- - NOC (number of children)
- - DIT (depth of inheritance tree)
- - WMC (weighted methods per class)
- - RFC (response for a class)
- - CBO (coupling between objects)
- - LCOM (lack of cohesion in methods)
-```
+|``Independent variables``|
+|:---|
+| - NOC (number of children)<br> - DIT (depth of inheritance tree) <br> - WMC (weighted methods per class) <br> - RFC (response for a class) <br> - CBO (coupling between objects) <br> - LCOM (lack of cohesion in methods)|
 
-* Metric of change-proneness (``Dependent variable``)
+* Metric of change-proneness
 
-```
-Total amount of changes (source lines of coded added and deleted) across the six releases (ver 1.0.1 ~ ver 1.0.6)
-```
+|``Dependent variables``|
+|:---|
+|Total amount of changes (source lines of coded added and deleted) across the six releases (ver 1.0.1 ~ ver 1.0.6)|
 
 ### Evaluation method <a name="evaluationmethod"></a>
 **Compare goodness of the fit (R<sup>2</sup>)** of the **multivariate regression models** constructed with and without the behavioral dependency metric along with the two different independent variable sets  
 
-```
-Comparators:
-- Model with behavioral dependency metric in addition to C&K metrics (our approach)
-    Dependent variables: metric of change-proneness  
-    Independent variables: behavioral dependency metric + C&K metrics
-- Model with only C&K metrics
-    Dependent variables: metric of change-proneness  
-    Independent variables: C&K metrics
+|``Comparators``| Description |
+|:---|:---|
+| Model with behavioral dependency metric in addition to C&K metrics (our approach) | - Dependent variables: metric of change-proneness <br> -Independent variables: behavioral dependency metric + C&K metrics |
+| Model with only C&K metrics | -Dependent variables: metric of change-proneness <br> -Independent variables: C&K metrics |
 
-Evaluation measure:
-- Goodness of the fit (R^2)
-```
+| Evaluation measure |
+|:---|
+| Goodness of the fit (R^2)|
+
 
 ## Results <a name="results"></a>
 
