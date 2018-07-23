@@ -162,12 +162,13 @@ Even though there is an overhead to compute ``maximal independent set (MIS)`` in
 
 ## RQ3. Efficiency of the two-phased approach <a name="RQ3"></a>
 
-### Experimental design
+### Experimental design  
+
+We compare our approach with the no-reduction approach. Our approach indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function (Delta top 20%). The approach to investigate all possible candidates is called the no-reduction approach.
 
 |Comparators|
 |:---|
 | - Delta top 20% (our approach) <br> - No-reduction approach |
-The Delta top 20% (our approach) indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function.
 
 The used ``fitness functions`` are ``MPC (Message Passing Coupling)``, ``Connectivity``, and ``EPM (Entity Placement metric)``.
 For improving maintainability, fitness functions should be increased or decreased: ``MPC (-)``, ``Connectivity (+)``, and ``EPM (-)``.
@@ -184,7 +185,7 @@ Speed up x means that time of Delta top 20% (our approach) is x times as fast as
 
 * **Performance of the ``Delta Table`` to find the candidates having higher fitness functions**
 
-|Efficiency measures|
+|Performance measures|
 |:---|
 |- Precision <br> - Recall |
 
@@ -192,7 +193,7 @@ Speed up x means that time of Delta top 20% (our approach) is x times as fast as
  - Precision = |D ∩ E| / |D|   
  - Recall = |D ∩ E| / |E|
 ```
-D: set of refactoring candidates in ``Delta Table``
+D: set of refactoring candidates in ``Delta Table``   
 E: set of refactoring candidates with positive effects on each fitness function   
 
 
