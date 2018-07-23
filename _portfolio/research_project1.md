@@ -55,7 +55,7 @@ To show that the behavioral dependency metric is the useful and additional expla
 
 |``Independent variables``|
 |:---|
-| - NOC (number of children)<br> - DIT (depth of inheritance tree) <br> - WMC (weighted methods per class) <br> - RFC (response for a class) <br> - CBO (coupling between objects) <br> - LCOM (lack of cohesion in methods)|
+| - ``NOC (number of children)``<br> - ``DIT (depth of inheritance tree)`` <br> - ``WMC (weighted methods per class)`` <br> - ``RFC (response for a class)`` <br> - ``CBO (coupling between objects)`` <br> - ``LCOM (lack of cohesion in methods)``|
 
 * Metric of change-proneness
 
@@ -68,8 +68,8 @@ To show that the behavioral dependency metric is the useful and additional expla
 
 |``Comparators``| Description |
 |:---|:---|
-| Model with behavioral dependency metric in addition to C&K metrics (our approach) | - Dependent variables: metric of change-proneness <br> -Independent variables: behavioral dependency metric + C&K metrics |
-| Model with only C&K metrics | -Dependent variables: metric of change-proneness <br> -Independent variables: C&K metrics |
+| Model with behavioral dependency metric in addition to C&K metrics (our approach) | - ``Dependent variables``: metric of change-proneness <br> - ``Independent variables``: ``behavioral dependency metric`` + ``C&K metrics`` |
+| Model with only C&K metrics | - ``Dependent variables``: metric of change-proneness <br> - ``Independent variables``: ``C&K metrics`` |
 
 | Evaluation measure |
 |:---|

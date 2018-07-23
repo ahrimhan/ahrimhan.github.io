@@ -164,11 +164,11 @@ Even though there is an overhead to compute ``maximal independent set (MIS)`` in
 
 ### Experimental design  
 
-We compare our approach with the no-reduction approach. Our approach indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function (Delta top 20%). The approach to investigate all possible candidates is called the no-reduction approach.
+We compare our approach with the no-reduction approach. **Our approach** indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function (``Delta top 20%``). The approach to investigate all possible candidates is called the no-reduction approach.
 
 |Comparators|
 |:---|
-| - Delta top 20% (our approach) <br> - No-reduction approach |
+| - ``Delta top 20%`` (**our approach**) <br> - No-reduction approach |
 
 The used ``fitness functions`` are ``MPC (Message Passing Coupling)``, ``Connectivity``, and ``EPM (Entity Placement metric)``.
 For improving maintainability, fitness functions should be increased or decreased: ``MPC (-)``, ``Connectivity (+)``, and ``EPM (-)``.
