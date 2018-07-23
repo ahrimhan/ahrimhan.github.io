@@ -164,11 +164,11 @@ Even though there is an overhead to compute ``maximal independent set (MIS)`` in
 
 ### Experimental design  
 
-We compare our approach with the no-reduction approach. **Our approach** indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function (``Delta top 20%``). The approach to investigate all possible candidates is called the no-reduction approach.
+We compare our approach with the no-reduction approach. Our approach indicates the two-phase approach in that top 20% ranked using the Delta Table are evaluated using a fitness function (``Delta top 20%``). The approach to investigate all possible candidates is called the ``no-reduction approach``.
 
 |Comparators|
 |:---|
-| - ``Delta top 20%`` (**our approach**) <br> - No-reduction approach |
+| - ``Delta top 20% (our approach)`` <br> - ``No-reduction approach`` |
 
 The used ``fitness functions`` are ``MPC (Message Passing Coupling)``, ``Connectivity``, and ``EPM (Entity Placement metric)``.
 For improving maintainability, fitness functions should be increased or decreased: ``MPC (-)``, ``Connectivity (+)``, and ``EPM (-)``.
@@ -179,9 +179,9 @@ For improving maintainability, fitness functions should be increased or decrease
 
 |Efficiency measures|
 |:---|
-| - Total time <br> - Speed up|
+| - Total time <br> - ``Speed up``|
 
-Speed up x means that time of Delta top 20% (our approach) is x times as fast as time of no-reduction approach. Speed up can be calculated as: Speed up = Time for no-reduction / Time for Delta top 20%.
+``Speed up`` x means that time of Delta top 20% (our approach) is x times as fast as time of no-reduction approach. Speed up can be calculated as: ``Speed up`` = Time for no-reduction / Time for Delta top 20%.
 
 * **Performance of the ``Delta Table`` to find the candidates having higher fitness functions**
 
@@ -193,8 +193,8 @@ Speed up x means that time of Delta top 20% (our approach) is x times as fast as
  - Precision = |D ∩ E| / |D|   
  - Recall = |D ∩ E| / |E|
 ```
-D: set of refactoring candidates in ``Delta Table``   
-E: set of refactoring candidates with positive effects on each fitness function   
+``D``: set of refactoring candidates in ``Delta Table``   
+``E``: set of refactoring candidates with positive effects on each fitness function   
 
 
 ### Results

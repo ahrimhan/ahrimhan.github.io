@@ -53,23 +53,23 @@ To show that the behavioral dependency metric is the useful and additional expla
 
 * Measured metrics: six [C&K metrics](https://ieeexplore.ieee.org/document/295895/)
 
-|``Independent variables``|
+|Independent variables|
 |:---|
 | - ``NOC (number of children)``<br> - ``DIT (depth of inheritance tree)`` <br> - ``WMC (weighted methods per class)`` <br> - ``RFC (response for a class)`` <br> - ``CBO (coupling between objects)`` <br> - ``LCOM (lack of cohesion in methods)``|
 
 * Metric of change-proneness
 
-|``Dependent variables``|
+|Dependent variables|
 |:---|
 |Total amount of changes (source lines of coded added and deleted) across the six releases (ver 1.0.1 ~ ver 1.0.6)|
 
 ### Evaluation method <a name="evaluationmethod"></a>
 **Compare goodness of the fit (R<sup>2</sup>)** of the **multivariate regression models** constructed with and without the behavioral dependency metric along with the two different independent variable sets  
 
-|``Comparators``| Description |
+|Comparators| Description |
 |:---|:---|
-| Model with behavioral dependency metric in addition to C&K metrics (our approach) | - ``Dependent variables``: metric of change-proneness <br> - ``Independent variables``: ``behavioral dependency metric`` + ``C&K metrics`` |
-| Model with only C&K metrics | - ``Dependent variables``: metric of change-proneness <br> - ``Independent variables``: ``C&K metrics`` |
+| Model with behavioral dependency metric in addition to C&K metrics (our approach) | - Dependent variables: metric of change-proneness <br> - Independent variables: ``behavioral dependency metric`` + ``C&K metrics`` |
+| Model with only C&K metrics | - Dependent variables: metric of change-proneness <br> - Independent variables: ``C&K metrics`` |
 
 | Evaluation measure |
 |:---|

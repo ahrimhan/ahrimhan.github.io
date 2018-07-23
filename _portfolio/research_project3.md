@@ -88,7 +88,9 @@ The formulation is devised by taking the effects (simulating) of moving entities
         for (i = 0; i < c; i++)
         {
           if (i != c)
-            invPint[e][i] = Pint[e][c]; //moving entity `e` to other classes increases the external relation(s)
+            invPint[e][i] = Pint[e][c];
+            //moving entity `e` to other classes increases
+            //the external relation(s)
           else
             invPint[e][c] = 0; //remaining in the same class `c` has no effect
         }
@@ -113,10 +115,9 @@ D = invPint - Pext
 
 ### Research questions <a name="RQ"></a>
 
-```
-RQ1. Efficiency: By how much our method is efficient for assessing the impact of refactoring candidates?  
-RQ2. Usefulness: Does the refactoring identification approach based on our method help improve maintainability?
-```
+> **RQ1.** **Efficiency**: By how much our method is efficient for assessing the impact of refactoring candidates?   
+**RQ2.** **Usefulness**: Does the refactoring identification approach based on our method help improve maintainability?
+
 
 ### Data sets <a name="datasets"></a>
 
@@ -138,10 +139,10 @@ RQ2. Usefulness: Does the refactoring identification approach based on our metho
 
 ### Evaluation measures <a name="evaluationmeasures"></a>
 
-```
-- Total time
-- Maintainability metric: MPC (Message Passing Coupling)
-```
+|Evaluation measures|
+|:---|
+| - Total time <br> - Maintainability metric: MPC (Message Passing Coupling)|
+
 For maintainability metric, [``MPC (Message Passing Coupling)``](https://dl.acm.org/citation.cfm?id=170622) is used. ``MPC`` is a widely used coupling metric for measuring maintainability of software design. **The lower coupling means the more maintainable software**.
 
 
