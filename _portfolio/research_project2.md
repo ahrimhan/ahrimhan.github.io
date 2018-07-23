@@ -56,9 +56,9 @@ To find a sequence of cost-effective refactorings, I proposed the method for sel
 
 ### Research questions <a name="RQ"></a>
 
-> **RQ1.** Is the dynamic information helpful in identifying refactorings that effectively improve maintainability?
-> **RQ2.** Do the multiple refactorings reduce the computational cost required to achieve the same maintainability?
-> **RQ3.** Is the two-phase assessment approach efficient?
+> **RQ1.** Is the dynamic information helpful in identifying refactorings that effectively improve maintainability?  
+**RQ2.** Do the multiple refactorings reduce the computational cost required to achieve the same maintainability?  
+**RQ3.** Is the two-phase assessment approach efficient?
      How well does the ``Delta Table`` correctly identify refactoring candidates that have actual higher maintainability metric values?
 
 
