@@ -5,7 +5,9 @@ author_profile: true
 ---
 
 www.linkedin.com/in/ahrimhan
-https://ahrimhan.github.io/cv/
+https://ahrimhan.github.io/cv
+
+I have the L2 visa and the work permit (Employment Authorization Document). I applied for a green card (EB2-NIW) in May 2018. I can work anytime.
 
 ## 1. Ph.D. Research
 
@@ -72,10 +74,8 @@ I have the special interest in analyzing the data of online consumer reviews and
 I explain my motivation and interests to become a data scientist and summarize projects related to data science in the link: [data science](https://ahrimhan.github.io/datascience/).
 
 ## 6. Data Engineering
-Why are you interested in Data Engineering Fellowship?
-Your Data Engineering specific skills and qualifications?
 
-Yes, I am also interested in applying for the Data Engineering Fellows Program.
+Yes, I am also interested in applying for the Data Engineering Fellows Program. I live in Irvine and want to work in Orange County, but I am available to move to Silicon Valley or Seattle areas next summer.
 
 I understand the importance of data collection, storage, and processing because I have had difficulty obtaining the quality of the data. The larger the amount of data, the more important it becomes to collect and process the data smarter. I think that the ability to process data directly is like a chef can cook more delicious food with better ingredients, so I want to have the data engineering skill in order to become an advanced data scientist.
 
