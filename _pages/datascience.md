@@ -7,6 +7,7 @@ author_profile: true
 [1. Why do I want to become a data scientist? Why do I want to transit from academia to industry?](#reasondatascientist)
 [2. Data Science Related Projects](#datascienceproject)    
 
+
 ## 1. Reason to Become a Data Scientist <a name="reasondatascientist"></a>
 
 ### Software engineering and Data Science
