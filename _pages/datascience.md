@@ -4,11 +4,7 @@ title: "Data Science"
 author_profile: true
 ---
 
-[1. Why do I want to become a data scientist? Why do I want to transit from academia to industry?](#reasondatascientist)
-[2. Data Science Related Projects](#datascienceproject)    
-
-
-## 1. Reason to Become a Data Scientist <a name="reasondatascientist"></a>
+## Reason to Become a Data Scientist <a name="reasondatascientist"></a>
 
 ### Software engineering and Data Science
 
@@ -27,7 +23,7 @@ Second, I would like to have a chance to work on analyzing the large-scale data 
 Third, I want to feel excited about working in leading tech companies. I am fast to learn new technologies and enjoy working in a dynamically changing environment. As my major is computer science and software engineering, I can quickly learn the newest innovations in deep learning and machine learning techniques, which can help me to become an advanced data scientist.
 
 
-## 2. Data Science Related Projects <a name="datascienceproject"></a>
+## Data Science Related Projects <a name="datascienceproject"></a>
 
 ### [Improvement of change-proneness prediction](/portfolio/research_project1/)  
 *Type: Ph.D. research project*
