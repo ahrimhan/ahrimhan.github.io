@@ -72,3 +72,23 @@ To help customers buy airline tickets, I analyzed the data affecting airplane ti
 *Type: Coursework project*
 
 The World Economic Forum annually publishes the Global Competitiveness Index (GCI) data from around the world. We obtained the GCI data from 43 countries for a total of six years from 2002 to 2007. When considering countries with high ranked countries are advanced countries, I can find valuable insights of the advanced countries. This can be used as a model to suggest a direction for developing countries to become advanced countries. In this analysis, I focus on Asia countries.
+
+
+## 3. Project Plan in Insight <a name="projectplan"></a>
+
+I would like to analyze the data of online consumer reviews and find business insights. The rich data of consumer reviews (e.g., reviews at ``Yelp`` or ``Amazon``) or reactions (e.g., likes at ``Facebook``) is the valuable source for finding business insights and patterns. I am planning to use ``Yelp dataset`` to answer the following questions.
+
+* What are the characteristics of fake reviews?
+* What reviews do not customers trust? (e.g., reviews full of compliments, highly rating scores with a few reviews, short comments written for the free food, etc.)
+* What reviews do customers trust? (e.g., highly ranked in the search, rating scores over 4, many well-organized menu photos, many high-resolution food photos, many reviews from elite members, etc.)
+
+I am also interested in ``software defect prediction``, ``fraud news detection``, or challenges using ``Kaggle dataset``. I will keep in finding more interesting projects and choose the final project after receiving comments from mentors during the program.
+
+
+## 4. Reason for the Insight Data Science Fellows Program <a name="reasoninsight"></a>
+
+Now I am confronted with three big challenges: moving from academia to industry, changing major in software engineering to data science, and moving the country I live and work. In a difficult situation where none of the things is easy, the Insight Data Science Fellows Program gave me the hope that I can transit the career from academia to industry.
+
+I am eager to have an opportunity to participate in the Insight Data Science Fellows Program. If I get an offer, I will do my best to show all my potentials in the project. Through this program, I strongly believe I will be able to successfully build my career as a data scientist. I am grateful to know about this program and wish to be able to join the program.
+
+I currently want to work in Orange County, but I am available to move to Silicon Valley or Seattle areas next summer.
