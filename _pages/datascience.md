@@ -40,7 +40,7 @@ Recent research was focused on defining the cost-effective software refactoring 
 
 In this project, I propose the several new methods to improve the efficiency of the refactoring identification process.  
 
-**Dynamic profiling-based refactoring identification**  
+[**Dynamic profiling-based refactoring identification**](/portfolio/research_project2/#dynamic)   
 To identify the candidates in classes where real changes have occurred, I provided the method to use the ``dynamic profiling technique`` for finding the ``most frequently used functions`` based on the several scenarios of user behavior. Then, refactoring candidates are extracted to ``reduce the dependencies among the entities used in the most frequently used functions``.  
 
 **Multiple and independent refactoring identification**  
