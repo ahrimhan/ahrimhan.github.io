@@ -20,9 +20,10 @@ Period: March 2008 - December 2017
 5. [RQ2. Efficiency of multiple refactorings](#RQ2)  
 6. [RQ3. Efficiency of the two-phased approach](#RQ3)  
 7. [Conclusion](#conclusion)  
-8. [Papers](#papers)  
-9. [Tools](#tools)  
-10. [Awards](#awards)  
+8. [Papers](#papers)
+9. [Awards and Contribution](#awards)  
+10. [Tools](#tools)  
+
 
 ## Motivation and Goal
 
@@ -208,11 +209,11 @@ For improving maintainability, fitness functions should be increased or decrease
 ![researchRefactoringTwophaseResult2](/images/researchRefactoringTwophaseResult2.png)
 
 
-## Conclusion
+## Conclusion <a name="conclusion"></a>
 
 To improve the efficiency of the refactoring identification process, I proposed the new methods: 1) using the dynamic information, 2) selecting multiple refactorings that can be applied simultaneously, and 3) using the two-phased approach to reduce the scope of candidates to be assessed using a fitness function. The efficient refactoring identification is important for computing the large-scale software.
 
-## Papers
+## Papers <a name="papers"></a>
 
 * [**Two-phase Assessment Approach to Improve the Efficiency of Refactoring Identification**](https://dx.doi.org/10.1109/TSE.2017.2731853)  
    **Ah-Rim Han**, Sungdeok Cha    
@@ -231,22 +232,7 @@ To improve the efficiency of the refactoring identification process, I proposed 
   [[PDF]](/files/ist2013DynamicProfilingRef.pdf) [[DOI]](http://dx.doi.org/10.1016/j.infsof.2012.12.002)
 
 
-## Tools
-
-* [Delta search](https://github.com/ahrimhan/delta-search) (written in ``Python``)  
-Prototype of the two-phased refactoring identification approach: search space reduction based on the ``Delta Table``
-
-* [Mass refactoring](https://github.com/ahrimhan/mass-refactoring) (written in ``Python``)  
-Implementation for choosing multiple refactoring candidates with the ``Delta Table``
-
-* [Rank distance](https://github.com/ahrimhan/rank-distance) (written in ``Python``)  
-Implementation for comparing the rank distance between static based and dynamic based refactoring approaches (for experiment purpose)
-
-* [Java Code Quality Analysis   Tool](https://github.com/ahrimhan/artool-java) (written in ``Java``)
-Java source code analysis and metric measurement tool
-
-
-## Awards and Contribution
+## Awards and Contribution <a name="awards"></a>
 
 * Nov. 2014 - Apr. 2017, **sole Principal Investigator**, Individual Basic Science & Engineering Research Program   
 [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main), $125,000
@@ -254,3 +240,19 @@ Java source code analysis and metric measurement tool
 
 * [Suggestions of Refactoring Candidates to Active Open Source](https://github.com/ahrimhan/jgit/commit/29f61768bd8b66e5351142333b4d49ecc9adaae4)  
 We applied the identified refactorings to the active open source project, ``JGit (version 4.7.1)``. We performed our approach of refactoring identification process automatically by choosing the refactorings that improve the maintainability of a fitness function to the greatest extent. Among the suggested refactorings, we selected to submit ``two of the refactorings`` found when using the fitness function of ``EPM``: **Move Method** ``clean`` from class ``WindowCache`` to class ``Entry`` and **Move Method** ``clean`` from class ``DfsBlockCache`` to class ``HashEntry``. The class ``Entry`` and the class ``HashEntry`` are the inner classes. The method ``clean`` tends to access the methods and attributes in each inner class (i.e., ``Feature Envy`` design problems); thus, it is better to move the methods to those inner classes where those methods are actually used.
+
+
+
+## Tools <a name="tools"></a>
+
+* [Delta search](https://github.com/ahrimhan/delta-search) (written in ``Python``)  
+Prototype of the two-phased refactoring identification approach: search space reduction based on the ``Delta Table``
+
+<!--* [Mass refactoring](https://github.com/ahrimhan/mass-refactoring) (written in ``Python``)  
+Implementation for choosing multiple refactoring candidates with the ``Delta Table``
+
+* [Rank distance](https://github.com/ahrimhan/rank-distance) (written in ``Python``)  
+Implementation for comparing the rank distance between static based and dynamic based refactoring approaches (for experiment purpose)-->
+
+* [Java Code Quality Analysis Tool](https://github.com/ahrimhan/artool-java) (written in ``Java``)
+Java source code analysis and metric measurement tool

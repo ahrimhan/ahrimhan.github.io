@@ -18,9 +18,11 @@ Data scientists are becoming more popular these days, and I want to become a dat
 
 First, I have been working on evaluating and improving software design quality using statistical, data mining and automated software analysis techniques. Building a career path as a data scientist is a way to continue to use my research background.
 
-Second, I would like to have a chance to work on analyzing the large-scale data set for solving real-world problems. I want to expand my work from the software to users and find business insights such as predicting user behavior patterns by analyzing various kinds of data sets (e.g., behavioral traces of user interactions with online systems).
+Second, I would like to have a chance to work on analyzing the large-scale data set for solving real-world problems.
+I want to expand my work from the software to users and find new insights into systems and business by leveraging big data intelligence.
 
-Third, I want to feel excited about working in leading tech companies. I am fast to learn new technologies and enjoy working in a dynamically changing environment. As my major is computer science and software engineering, I can quickly learn the newest innovations in deep learning and machine learning techniques, which can help me to become an advanced data scientist.
+Third, I want to feel excited about working in leading tech companies. I am fast to learn new technologies and enjoy working in a dynamically changing environment.
+As my major is computer science and software engineering, I can quickly learn the newest innovations in deep learning and machine learning techniques, which can help me to become an advanced data scientist and machine learning engineer.
 
 
 ## Data Science Related Projects

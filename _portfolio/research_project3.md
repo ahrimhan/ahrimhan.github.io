@@ -22,8 +22,9 @@ Period: March 2011 - December 2014
   4.2 [Usefulness](#RQ2)  
 5. [Conclusion](#conclusion)  
 6. [Papers](#papers)  
-7. [Tools](#tools)  
-8. [Awards](#awards)  
+7. [Awards](#awards)  
+<!--8. [Tools](#tools)-->
+
 
 
 ## Motivation and Goal <a name="mg"></a>
@@ -191,13 +192,16 @@ I propose a matrix computation-based refactoring candidate assessment metric. Th
    (27% acceptance ratio, 55/202)  
    [[PDF]](/files/apsec2014DeltaTable.pdf) [[DOI]](http://dx.doi.org/10.1109/APSEC.2014.69) [[Slide]](/files/slideApsec2014.pdf)
 
-## Tools <a name="tools"></a>
 
-* [fastdelta](https://github.com/ahrimhan/fastdelta) (written in ``C++``)  
-Native C++ implementation of the Delta Table calculation (for only MacOS)
 
 ## Awards <a name="awards"></a>
 
 * Nov. 2013 - Oct. 2014, **sole Principal Investigator**, Post-Doctoral Fellowship Grant    
 National Research Foundation of Korea (NRF), $33,000
 [[certificate]](/files/fund1Postdoc.pdf) [[translated version]](/files/fund1PostdocTranslate.pdf)
+
+
+<!--## Tools <a name="tools"></a>
+
+* [fastdelta](https://github.com/ahrimhan/fastdelta) (written in ``C++``)  
+Native C++ implementation of the Delta Table calculation (for only MacOS)-->
