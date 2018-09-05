@@ -4,7 +4,7 @@ title: "Data Science"
 author_profile: true
 ---
 
-## Reason to Become a Data Scientist <a name="reasondatascientist"></a>
+## Reason to Become a Data Scientist
 
 ### Software engineering and Data Science
 
@@ -23,7 +23,7 @@ Second, I would like to have a chance to work on analyzing the large-scale data 
 Third, I want to feel excited about working in leading tech companies. I am fast to learn new technologies and enjoy working in a dynamically changing environment. As my major is computer science and software engineering, I can quickly learn the newest innovations in deep learning and machine learning techniques, which can help me to become an advanced data scientist.
 
 
-## Data Science Related Projects <a name="datascienceproject"></a>
+## Data Science Related Projects
 
 ### [Improvement of change-proneness prediction](/portfolio/research_project1/)  
 *Type: Ph.D. research project*
@@ -40,13 +40,13 @@ Recent research was focused on defining the cost-effective software refactoring 
 
 In this project, I propose the several new methods to improve the efficiency of the refactoring identification process.  
 
-[**Dynamic profiling-based refactoring identification**](/portfolio/research_project2/#dynamic)   
+* [**Dynamic profiling-based refactoring identification**](/portfolio/research_project2/#dynamic)   
 To identify the candidates in classes where real changes have occurred, I provided the method to use the ``dynamic profiling technique`` for finding the ``most frequently used functions`` based on the several scenarios of user behavior. Then, refactoring candidates are extracted to ``reduce the dependencies among the entities used in the most frequently used functions``.  
 
-**Multiple and independent refactoring identification**  
+* [**Multiple and independent refactoring identification**](/portfolio/research_project2/#multiple)     
 To find a sequence of cost-effective refactorings, I proposed the method for selecting ``multiple refactorings that have no dependencies each other and can be applied simultaneously`` based on the concept of ``maximal independent set (MIS)``.  
 
-**Two-phased search-based refactoring identification**  
+* [**Two-phased search-based refactoring identification**](/portfolio/research_project2/#twophase)   
 ``To reduce the search space of candidates to be examined``, I suggested using the ``two-phase approach``. In the first phase, the refactoring candidates that are more likely to improve maintainability are chosen using the [``Delta Table``](/portfolio/research_project3/), lightweight and fast candidate assessment. In the second phase, only the chosen refactoring candidates are evaluated using a more complex and precise fitness function.
 
 
