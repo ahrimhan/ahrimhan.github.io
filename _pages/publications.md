@@ -15,13 +15,13 @@ author_profile: true
 
 * [**Two-phase Assessment Approach to Improve the Efficiency of Refactoring Identification**](https://dx.doi.org/10.1109/TSE.2017.2731853)  
    **Ah-Rim Han**, Sungdeok Cha    
-   IEEE Transactions on Software Engineering (TSE), Online Published at July 25, 2017        
+   IEEE Transactions on Software Engineering (TSE), Vol 44, No. 10, pp. 1001 - 1023, Oct. 2018   
    [[PDF]](/files/TSE2017proof.pdf) [[DOI]](https://dx.doi.org/10.1109/TSE.2017.2731853)
 
 
 * [**Testing Android Applications considering various contexts inferred from permissions**](http://dx.doi.org/10.5626/JOK.2015.42.8.1022)  
    Kwangsik Song, **Ah-Rim Han<sup>*</sup>**, Sehun Jeong, Sungdeok Cha  
-   Journal of the Korean Institute of Information Scientists and Engineers (KIISE): Software and Applications Vol. 42, No. 8, pp. 1022 - 1030, Aug. 2015  
+   Journal of the Korean Institute of Information Scientists and Engineers (KIISE): Software and Applications, Vol. 42, No. 8, pp. 1022 - 1030, Aug. 2015  
    [[PDF]](/files/2015kiiseKorean.pdf) [[DOI]](http://dx.doi.org/10.5626/JOK.2015.42.8.1022)  
 
 
