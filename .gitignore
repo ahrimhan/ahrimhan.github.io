@@ -2,4 +2,5 @@ _site/
 .DS_Store
 Gemfile.lock
 .*.swp
-
+files/resume_history
+.vscode/
