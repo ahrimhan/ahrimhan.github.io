@@ -32,7 +32,7 @@ Advisor: [Prof. Doo-Hwan Bae](http://se.kaist.ac.kr/professor)
 
 ## Work Experience
 
-  * Oct 2018 - Aug 2019, **Springboard**  
+  * Oct 2018 - Aug 2019, **Springboard**, online bootcamp in the US    
    *Data Science Career Track (Deep Learning Specialization)* 
       * Mastering skills in Python, SQL, data wrangling, data visualization, exploratory data analysis, and machine learning, and deep learning methods
       * Performed two data science-related capstone projects:  
