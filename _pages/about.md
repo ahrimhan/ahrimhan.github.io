@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Here is my most recent resume [[pdf]](/files/ahrimhan_data_scientist.pdf) (updated 8/24/2019).  
+Here is my most recent resume [[pdf]](/files/resume.pdf).  
 
 Biography
 ------
