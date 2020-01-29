@@ -31,11 +31,19 @@ Advisor: [Prof. Doo-Hwan Bae](http://se.kaist.ac.kr/professor)
 
 
 ## Work Experience
+
+  * Oct 2018 - Aug 2019, **Springboard**  
+   *Data Science Career Track (Deep Learning Specialization)* 
+      * Mastering skills in Python, SQL, data wrangling, data visualization, exploratory data analysis, and machine learning, and deep learning methods
+      * Performed two data science-related capstone projects:  
+        * Capstone 1: [Prediction of Scores for Public Schools in California](https://github.com/ahrimhan/data-science-project/tree/master/project1)
+        * Capstone 2: [Sentiment Analysis of Movie Reviews using a Deep Learning Neural Network](https://github.com/ahrimhan/data-science-project/tree/master/project2)
+
    * Sep 2013 - Apr 2018, [**Korea University**](http://www.korea.ac.kr/mbshome/mbs/en/index.do), Seoul, South Korea  
    *Position: Research Professor*  
       * Led the research projects for automating the refactoring identification process as a sole Principal Investigator
       * Advised graduate students to develop research topics and conduct the experiments
-      * Published the research results to the top tier Software Engineering journal, ``IEEE Transactions on Software Engineering``
+      * Published the research results to the top tier journal, ``IEEE Transactions on Software Engineering``
 
 
    * Mar. 2005 - Aug. 2013, [**Korea Advanced Institute of Science and Technology (KAIST)**](http://www.kaist.ac.kr/html/en/index.html), Daejeon, South Korea  
@@ -58,7 +66,26 @@ Advisor: [Prof. Doo-Hwan Bae](http://se.kaist.ac.kr/professor)
 
 ## Skills
 
-* **Research Area**
+* **Data Analysis, Visualization, and Modeling:**  
+Pandas, Numpy, Scipy, Matplotlib, Pyplot, Seaborn, Scikit-Learn, PySpark, NLTK
+
+* **Statistical Methods and Machine Learning:**  
+Classification, Regression, Clustering, Hypothesis Testing, Keras, Tensorflow, Deep Learning
+
+* **Programming Languages and Tools:**  
+Python, SQL, Java, R, UML, Fortran, Assembly, Markdown, Latex, SPSS, Jupyter Notebook, Visual Studio Code
+
+* **Research Areas:**  
+Software Engineering, 
+Software Quality Driven Development,
+Change Impact Analysis,
+Metrics, Software Quality Assessment, 
+Software Design Improvement,
+Refactoring, Design Patterns, Prediction, Optimization, Natural Language Processing
+
+
+
+<!-- * **Research Area**
   * Software Engineering, Refactoring, Performance-Driven Architecture, Software Design, Software Quality Assessment, Software Quality Measurement, Software Defect Prediction, Maintainability Improvement, Data Analysis
 
 
@@ -72,21 +99,22 @@ Advisor: [Prof. Doo-Hwan Bae](http://se.kaist.ac.kr/professor)
 
 
 * **Modeling Languages**
-  * Unified Modeling Language, Specification and Description Language, System Dynamics
+  * Unified Modeling Language, Specification and Description Language, System Dynamics -->
 
 
-* **Language**
-  * English and Korean
+* **Language:**  
+English and Korean
 
 
 ## Publications
 
 ### Journals
 
+
 * [**Two-phase Assessment Approach to Improve the Efficiency of Refactoring Identification**](https://dx.doi.org/10.1109/TSE.2017.2731853)  
    **Ah-Rim Han**, Sungdeok Cha    
-   IEEE Transactions on Software Engineering (TSE), Online Published at July 25, 2017        
-   [[PDF]](/files/TSE2017proof.pdf) [[DOI]](https://dx.doi.org/10.1109/TSE.2017.2731853)
+   IEEE Transactions on Software Engineering (TSE), Vol 44, No. 10, pp. 1001 - 1023, Oct. 2018   
+   [[PDF]](/files/TSE2018.pdf) [[DOI]](https://dx.doi.org/10.1109/TSE.2017.2731853)
 
 
 * [**Testing Android Applications considering various contexts inferred from permissions**](http://dx.doi.org/10.5626/JOK.2015.42.8.1022)  
