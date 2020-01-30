@@ -6,7 +6,14 @@ author_profile: true
 
 {% include base_path %}
 
-## Work Experience
+## Work Experience  
+* Oct 2018 - Aug 2019, **Springboard**, online bootcamp in the US    
+  *Data Science Career Track (Deep Learning Specialization)* 
+    * Mastering skills in Python, SQL, data wrangling, data visualization, exploratory data analysis, and machine learning, and deep learning methods
+    * Performed two data science-related capstone projects:  
+      * Capstone 1: [Prediction of Scores for Public Schools in California](https://github.com/ahrimhan/data-science-project/tree/master/project1)
+      * Capstone 2: [Sentiment Analysis of Movie Reviews using a Deep Learning Neural Network](https://github.com/ahrimhan/data-science-project/tree/master/project2)
+
 * Sep 2013 - Apr 2018, [**Korea University**](http://www.korea.ac.kr/mbshome/mbs/en/index.do), Seoul, South Korea  
 *Position: Research Professor*  
    * Led the research projects for automating the refactoring identification process as a sole Principal Investigator

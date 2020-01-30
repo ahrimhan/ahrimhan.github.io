@@ -13,7 +13,7 @@ main:
   # - title: "Data Science"
   #   url: /datascience/
 
-- title: "Data Science & <br />Machine Learning "
+- title: "DS/ML Projects"
     url: /datascience/
 
   - title: "Experience"
@@ -22,7 +22,10 @@ main:
 #  - title: "Skills"
 #    url: /year-archive/
 
-  - title: "Awards & <br /> Activities"
+  # - title: "Awards & <br /> Activities"
+  #   url: /activities/
+
+  - title: "Honors"
     url: /activities/
 
   - title: "CV"
