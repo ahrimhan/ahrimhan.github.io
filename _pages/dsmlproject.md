@@ -4,9 +4,9 @@ title: "Data Science and Machine Learning"
 author_profile: true
 ---
 
-# Data Science and Machine Learning
+<!-- # Data Science and Machine Learning -->
 
-I completed the bootcamp of the Springboard Data Science Career Track specialized in deep learning. Throughout the course for 11 months, I have mastered the skills in Python, SQL, data analysis, data visualization, hypothesis testing, and machine learning.
+I recently completed the bootcamp of the Springboard Data Science Career Track specialized in deep learning (Oct. 2018 - Aug. 2019). Throughout the course for 11 months, I have mastered the skills in Python, SQL, data analysis, data visualization, hypothesis testing, and machine learning.
 
 ---
 ## Springboard Capstone Projects

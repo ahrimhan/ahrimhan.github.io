@@ -8,7 +8,7 @@ author_profile: true
 
 ## Work Experience  
 
-* Oct 2018 - Aug 2019, **Springboard**, online bootcamp in the US    
+* Oct 2018 - Aug 2019, [**Springboard**](https://www.springboard.com/workshops/data-science-career-track/), online job guarantee bootcamp in the US    
   *Data Science Career Track (Deep Learning Specialization)* 
     * Mastering skills in Python, SQL, data wrangling, data visualization, exploratory data analysis, and machine learning, and deep learning methods
     * Performed two data science-related capstone projects:  
