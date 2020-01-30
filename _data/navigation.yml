@@ -10,7 +10,10 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "Data Science & Machine Learning"
+  # - title: "Data Science"
+  #   url: /datascience/
+
+- title: "Data Science & <br />Machine Learning "
     url: /datascience/
 
   - title: "Experience"
@@ -19,7 +22,7 @@ main:
 #  - title: "Skills"
 #    url: /year-archive/
 
-  - title: "Awards & Activities"
+  - title: "Awards & <br /> Activities"
     url: /activities/
 
   - title: "CV"
