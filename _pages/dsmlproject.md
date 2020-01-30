@@ -1,6 +1,6 @@
 ---
-permalink: /datascience/
-title: "Data Science and Machine Learning"
+permalink: /dsmlproject/
+title: "Data Science and Machine Learning Projects"
 author_profile: true
 ---
 
