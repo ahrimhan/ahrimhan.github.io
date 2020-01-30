@@ -13,7 +13,7 @@ main:
   # - title: "Data Science"
   #   url: /datascience/
 
-- title: "DS/ML Projects"
+  - title: "Data Science <br> Machine Learning"
     url: /dsmlproject/
 
   - title: "Experience"
