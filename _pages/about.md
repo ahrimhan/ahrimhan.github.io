@@ -34,4 +34,4 @@ I have performed two data science-related projects:
 [[Final Report]](/files/capstone2_final_report.pdf) [[Presentation]](/files/capstone2_presentation.pdf)
 
 
-While doing research, I realized I am good at dealing with big data and finding new insights. **I am transitioning from academy to industry to work as a , or privacy engineer, machine learning engineer, applied scientist, or data scientist**. 
+While doing research, I realized I am good at dealing with big data and finding new insights. **I am transitioning from academy to industry to work as a privacy engineer, machine learning engineer, or data scientist**. 
