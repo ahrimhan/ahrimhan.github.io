@@ -8,12 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-Here is my most recent resume [[pdf]](/files/resume.pdf).  
-
 Biography
 ------
 
-I worked as a research professor in the Next-generation Game Research Center at the Computer Science Department at [Korea University](http://www.korea.ac.kr/mbshome/mbs/en/index.do) in South Korea. In 2013, I finished my Ph.D. in Computer Science at [Korea Advanced Institute of Science and Technology (KAIST)](http://www.kaist.ac.kr/html/en/index.html) in South Korea. 
+I worked as a research professor in the Next-generation Game Research Center at the Computer Science Department at [Korea University](http://www.korea.ac.kr/mbshome/mbs/en/index.do) in South Korea. In 2013, I finished my Ph.D. in Computer Science at [Korea Advanced Institute of Science and Technology (KAIST)](http://www.kaist.ac.kr/html/en/index.html) in South Korea.
 
 <!-- KAIST was established by the government as the nation's first research-intensive graduate school for science and engineering. -->
 
@@ -28,12 +26,12 @@ I also developed a recommendation system that helps software developers change c
 
 I received the two national grants from the [National Research Foundation of Korea (NRF)](http://www.nrf.re.kr/eng/main) and worked as a sole Principal Investigator. I also have served as a reviewer for many journals and conferences. I also have several successful experiences to mentor and teach university students.
 
-Recently, I completed the bootcamp for the data science career track and performed projects specialized in deep learning. 
+Recently, I completed the bootcamp for the data science career track and performed projects specialized in deep learning.
 I have performed two data science-related projects:
-* [Prediction of Scores for Public Schools in California](https://github.com/ahrimhan/data-science-project/tree/master/project1) 
-[[Final Report]](/files/capstone1_final_report.pdf) [[Presentation]](/files/Capstone1_presentation.pdf) 
+* [Prediction of Scores for Public Schools in California](https://github.com/ahrimhan/data-science-project/tree/master/project1)
+[[Final Report]](/files/capstone1_final_report.pdf) [[Presentation]](/files/Capstone1_presentation.pdf)
 * [Sentiment Analysis of Movie Reviews using a Deep Learning Convolutional Neural Network](https://github.com/ahrimhan/data-science-project/tree/master/project2)
-[[Final Report]](/files/capstone2_final_report.pdf) [[Presentation]](/files/capstone2_presentation.pdf) 
+[[Final Report]](/files/capstone2_final_report.pdf) [[Presentation]](/files/capstone2_presentation.pdf)
 
 
-While doing research, I realized I am good at dealing with big data and finding new insights. **I am transitioning from academy to industry to work as a machine learning engineer, applied scientist, data scientist, or privacy engineer**. 
+While doing research, I realized I am good at dealing with big data and finding new insights. **I am transitioning from academy to industry to work as a , or privacy engineer, machine learning engineer, applied scientist, or data scientist**. 
