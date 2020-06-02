@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+Here is my recent resume. [[download]](/files/resume.pdf)
+
+
 Biography
 ------
 
